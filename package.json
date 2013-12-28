@@ -1,0 +1,24 @@
+{
+  "name": "yearrange",
+  "version": "0.0.0",
+  "description": "Parse year range strings and convert to usable dates.",
+  "main": "yearrange.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeresig/node-yearrange.git"
+  },
+  "keywords": [
+    "date",
+    "dates",
+    "year",
+    "museum"
+  ],
+  "author": "John Resig <jeresig@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeresig/node-yearrange/issues"
+  }
+}

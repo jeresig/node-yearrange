@@ -20,5 +20,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jeresig/node-yearrange/issues"
+  },
+  "devDependencies": {
+    "csv-streamify": "~0.9.0"
   }
 }

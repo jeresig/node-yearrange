@@ -1,10 +1,3 @@
-var rules = [
-    [/^(\d{4})$/, function(match, date) {
-        date.start = match[0];
-        date.end = match[1];
-    }]
-];
-
 // Punctuation
 // (Both ASCII and Japanese)
 // http://www.localizingjapan.com/blog/2012/01/20/regular-expressions-for-japanese-text/
@@ -13,19 +6,74 @@ var rules = [
 var puncRegex = /[!"#$%&()*+,.:;<=>@[\\\]^_`{|}~\u3000-\u303F]/g;
 
 module.exports = {
-    parse: function(str) {
-        var date = {};
+    extraRules: [
+        [/\bca\b|circa|c\s*\d/, function(match, date) {
+            date.circa = true;
+        }]
+    ],
 
-        rules.forEach(function(options) {
-            var match = options[0].exec(str);
-            if (match) {
-                options[1](match, date);
+    dateRules: [
+        [/(\d{4})s?[-\/](\d{4})(?:\s|$)/, function(match, date) {
+            date.start = match[1];
+            date.end = match[2];
+        }],
+        [/(\d{4}) (?:and|or|to|through) (\d{4})/, function(match, date) {
+            date.start = match[1];
+            date.end = match[2];
+        }],
+        [/(\d{4})s?[-\/](\d{4})s/, function(match, date) {
+            date.start = match[1];
+            date.end = match[2].substr(0, 3) + "9";
+        }],
+        [/(\d{4})s?[-\/](\d{2})s/, function(match, date) {
+            date.start = match[1];
+            date.end = match[1].substr(0, 2) +
+                match[2].substr(2, 1) + "9";
+        }],
+        [/(\d{4})s?[-\/](\d{2})(?:\s|$)/, function(match, date) {
+            date.start = match[1];
+            date.end = match[1].substr(0, 2) + match[2];
+        }],
+        [/(\d{4})s/, function(match, date) {
+            date.start = match[1];
+            date.end = match[1].substr(0, 3) + "9";
+        }],
+        [/(\d{4})/, function(match, date) {
+            date.start = match[1];
+            date.end = match[1];
+        }]
+    ],
 
-                for (var prop in date) {
-                    date[prop] = parseFloat(date[prop]);
-                }
+    setTestMode: function(mode) {
+        this.dateRules.forEach(function(rule) {
+            if (mode) {
+                rule[0] = (new RegExp(rule[0].source
+                    .replace(/\\d/g, "X")));
+            } else {
+                rule[0] = (new RegExp(rule[0].source
+                    .replace(/X/g, "\\d")));
             }
         });
+    },
+
+    parse: function(str) {
+        var date = {};
+        str = this.cleanString(str);
+
+        for (var i = 0; i < this.dateRules.length; i++) {
+            var rule = this.dateRules[i];
+            var match = rule[0].exec(str);
+            if (match) {
+                rule[1](match, date);
+
+                for (var prop in date) {
+                    if (typeof date[prop] === "string") {
+                        date[prop] = parseFloat(date[prop]);
+                    }
+                }
+                break;
+            }
+        }
 
         return date;
     },

@@ -38,7 +38,12 @@ module.exports = {
 
     stripPunctuation: function(str) {
         return str.replace(puncRegex, " ")
+            // Convert 1820's to 1820s
             .replace(/(\d+)'s/g, "$1s")
+            // Convert wide dash to hyphen
+            .replace(/–/g, "-")
+            // Strip out extra whitespace
+            .replace(/\s+-\s+/g, "-")
             .replace(/\s+/, " ")
             .trim();
     }

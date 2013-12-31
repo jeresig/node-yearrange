@@ -13,6 +13,14 @@ module.exports = {
     ],
 
     dateRules: [
+        [/(\d{2})th[-\/](\d{2})th century/, function(match, date) {
+            date.start = (parseFloat(match[1]) - 1) * 100;
+            date.end = ((parseFloat(match[2]) - 1) * 100) + 99;
+        }],
+        [/(\d{2})th century/, function(match, date) {
+            date.start = (parseFloat(match[1]) - 1) * 100;
+            date.end = ((parseFloat(match[1]) - 1) * 100) + 99;
+        }],
         [/(\d{4})s?[-\/](\d{4})(?:\s|$)/, function(match, date) {
             date.start = match[1];
             date.end = match[2];
@@ -72,6 +80,14 @@ module.exports = {
                     }
                 }
                 break;
+            }
+        }
+
+        for (var i = 0; i < this.extraRules.length; i++) {
+            var rule = this.extraRules[i];
+            var match = rule[0].exec(str);
+            if (match) {
+                rule[1](match, date);
             }
         }
 

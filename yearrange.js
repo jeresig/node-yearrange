@@ -7,20 +7,12 @@ var puncRegex = /[!"#$%&()*+,.:;<=>@[\\\]^_`{|}~\u3000-\u303F]/g;
 
 module.exports = {
     extraRules: [
-        [/\bca\b|circa|c\s*\d/, function(match, date) {
+        [/\bca\b|circa|c\s*\d|\bc\b|\?/, function(match, date) {
             date.circa = true;
         }]
     ],
 
     dateRules: [
-        [/(\d{2})th[-\/](\d{2})th century/, function(match, date) {
-            date.start = (parseFloat(match[1]) - 1) * 100;
-            date.end = ((parseFloat(match[2]) - 1) * 100) + 99;
-        }],
-        [/(\d{2})th century/, function(match, date) {
-            date.start = (parseFloat(match[1]) - 1) * 100;
-            date.end = ((parseFloat(match[1]) - 1) * 100) + 99;
-        }],
         [/(\d{4})s?[-\/](\d{4})(?:\s|$)/, function(match, date) {
             date.start = match[1];
             date.end = match[2];
@@ -36,15 +28,35 @@ module.exports = {
         [/(\d{4})s?[-\/](\d{2})s/, function(match, date) {
             date.start = match[1];
             date.end = match[1].substr(0, 2) +
-                match[2].substr(2, 1) + "9";
+                match[2].substr(0, 1) + "9";
         }],
         [/(\d{4})s?[-\/](\d{2})(?:\s|$)/, function(match, date) {
             date.start = match[1];
             date.end = match[1].substr(0, 2) + match[2];
         }],
+        [/(\d{2})th[-\/](\d{2})th century/, function(match, date) {
+            date.start = (parseFloat(match[1]) - 1) * 100;
+            date.end = ((parseFloat(match[2]) - 1) * 100) + 99;
+        }],
+        [/(\d{2})th century/, function(match, date) {
+            date.start = (parseFloat(match[1]) - 1) * 100;
+            date.end = ((parseFloat(match[1]) - 1) * 100) + 99;
+        }],
+        [/(\d{2})(?:th\s*)?c/, function(match, date) {
+            date.start = (parseFloat(match[1]) - 1) * 100;
+            date.end = ((parseFloat(match[1]) - 1) * 100) + 99;
+        }],
         [/(\d{4})s/, function(match, date) {
             date.start = match[1];
             date.end = match[1].substr(0, 3) + "9";
+        }],
+        [/(\d{3})-/, function(match, date) {
+            date.start = match[1] + "0";
+            date.end = match[1] + "9";
+        }],
+        [/(\d{2})--/, function(match, date) {
+            date.start = match[1] + "00";
+            date.end = match[1] + "99";
         }],
         [/(\d{4})/, function(match, date) {
             date.start = match[1];

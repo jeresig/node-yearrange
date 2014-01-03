@@ -13,7 +13,11 @@ module.exports = {
     ],
 
     dateRules: [
-        [/(\d{4})s?[-\/](\d{4})(?:\s|$)/, function(match, date) {
+        [/(\d{4})s?[-\/](\d{4})s/, function(match, date) {
+            date.start = match[1];
+            date.end = match[2].substr(0, 3) + "9";
+        }],
+        [/(\d{4})s?[-\/](\d{4})(?:\D|$)/, function(match, date) {
             date.start = match[1];
             date.end = match[2];
         }],
@@ -21,18 +25,26 @@ module.exports = {
             date.start = match[1];
             date.end = match[2];
         }],
-        [/(\d{4})s?[-\/](\d{4})s/, function(match, date) {
-            date.start = match[1];
-            date.end = match[2].substr(0, 3) + "9";
-        }],
         [/(\d{4})s?[-\/](\d{2})s/, function(match, date) {
             date.start = match[1];
             date.end = match[1].substr(0, 2) +
                 match[2].substr(0, 1) + "9";
         }],
-        [/(\d{4})s?[-\/](\d{2})(?:\s|$)/, function(match, date) {
+        [/(\d{4})s?[-\/](\d{2})(?:\D|$)/, function(match, date) {
             date.start = match[1];
             date.end = match[1].substr(0, 2) + match[2];
+        }],
+        [/(\d{4})s?[-\/](\d{1})(?:\D|$)/, function(match, date) {
+            date.start = match[1];
+            date.end = match[1].substr(0, 3) + match[2];
+        }],
+        [/(\d{3})s?-(\d{4})(?:\D|$)/, function(match, date) {
+            date.start = match[1];
+            date.end = match[2];
+        }],
+        [/(\d{3})s?[-\/](\d{2})(?:\D|$)/, function(match, date) {
+            date.start = match[1];
+            date.end = match[1].substr(0, 1) + match[2];
         }],
         [/(late|early|mid(?:dle)?)\s+(\d{2})th century/, function(match, date) {
             date.start = (parseFloat(match[2]) - 1) * 100;
@@ -51,7 +63,7 @@ module.exports = {
             date.start = (parseFloat(match[1]) - 1) * 100;
             date.end = ((parseFloat(match[2]) - 1) * 100) + 99;
         }],
-        [/(\d{2})th century/, function(match, date) {
+        [/(\d{2})(?:th)?\s+century/, function(match, date) {
             date.start = (parseFloat(match[1]) - 1) * 100;
             date.end = ((parseFloat(match[1]) - 1) * 100) + 99;
         }],
@@ -68,13 +80,17 @@ module.exports = {
                 date.end -= 75;
             }
         }],
-        [/(\d{2})(?:th\s*|\s+)?[cｃ]/, function(match, date) {
+        [/(?:^|\D)(\d{2})(?:th)?\s*[cｃ](?:\W|$)/, function(match, date) {
             date.start = (parseFloat(match[1]) - 1) * 100;
             date.end = ((parseFloat(match[1]) - 1) * 100) + 99;
         }],
         [/(\d{4})s/, function(match, date) {
             date.start = match[1];
             date.end = match[1].substr(0, 3) + "9";
+        }],
+        [/([1-2]\d{3})/, function(match, date) {
+            date.start = match[1];
+            date.end = match[1];
         }],
         [/(\d{3})-/, function(match, date) {
             date.start = match[1] + "0";
@@ -83,10 +99,6 @@ module.exports = {
         [/(\d{2})--/, function(match, date) {
             date.start = match[1] + "00";
             date.end = match[1] + "99";
-        }],
-        [/(\d{4})/, function(match, date) {
-            date.start = match[1];
-            date.end = match[1];
         }],
         [/(\b(?:meiji|sh.wa|taish.|heisei|edo)\b|江戸時代)/, function(match, date) {
             if (match[1] === "meiji") {
@@ -165,10 +177,12 @@ module.exports = {
         return str.replace(puncRegex, " ")
             // Convert 1820's to 1820s
             .replace(/(\d+)'s/g, "$1s")
+            // Convert 1820 s to 1820s
+            .replace(/(\d+)\s+s\b/g, "$1s")
             // Convert wide dash to hyphen
             .replace(/–/g, "-")
             // Strip out extra whitespace
-            .replace(/\s+-\s+/g, "-")
+            .replace(/\s*-\s*/g, "-")
             .replace(/\s+/, " ")
             .trim();
     }

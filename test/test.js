@@ -8,5 +8,11 @@ fs.createReadStream(__dirname + "/date-tests.json")
     .pipe(JSONStream.parse("*"))
     .on("data", function(date) {
         var result = yr.parse(date.original);
-        assert.deepEqual(result, date, "Parsing: " + date.original);
+        try {
+            assert.deepEqual(result, date, "Parsing: " + date.original);
+        } catch(e) {
+            console.log("Expected:", date);
+            console.log("Result:", result);
+            throw e;
+        }
     });

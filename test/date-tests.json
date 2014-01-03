@@ -31,7 +31,7 @@
 ,
 {"original":"Late 20th century.","start":1975,"end":1999}
 ,
-{"original":"1821 (circa)","start":2000,"end":2099,"circa":true}
+{"original":"1821 (circa)","start":1821,"end":1821,"circa":true}
 ,
 {"original":"Ca. 1800-20.","start":1800,"end":1820,"circa":true}
 ,
@@ -87,7 +87,7 @@
 ,
 {"original":"Edo period","start":1603,"end":1867}
 ,
-{"original":"1940 c","start":3900,"end":3999,"circa":true}
+{"original":"1940 c","start":1940,"end":1940,"circa":true}
 ,
 {"original":"25/50, 1993","start":1993,"end":1993}
 ,
@@ -147,7 +147,7 @@
 ,
 {"original":"[ca. 1857]","start":1857,"end":1857,"circa":true}
 ,
-{"original":"1935 (ca.)","start":3400,"end":3499,"circa":true}
+{"original":"1935 (ca.)","start":1935,"end":1935,"circa":true}
 ,
 {"original":"October 2002.","start":2002,"end":2002}
 ,
@@ -325,7 +325,7 @@
 ,
 {"original":"1857 March.","start":1857,"end":1857}
 ,
-{"original":"1843-5.","start":8430,"end":8439}
+{"original":"1843-5.","start":1843,"end":1845}
 ,
 {"original":"1887 June.","start":1887,"end":1887}
 ,
@@ -431,7 +431,7 @@
 ,
 {"original":"Japanese, (Meiji era reprint of Edo period design)","start":1868,"end":1912}
 ,
-{"original":"1788 (circa;floruit)","start":8700,"end":8799,"circa":true}
+{"original":"1788 (circa;floruit)","start":1788,"end":1788,"circa":true}
 ,
 {"original":"[178-, printed later]","start":1780,"end":1789}
 ,
@@ -489,7 +489,7 @@
 ,
 {"original":"1800-1807 (floruit;circa)","start":1800,"end":1807,"circa":true}
 ,
-{"original":"Ca. 1900- 1910s.","start":1910,"end":1919,"circa":true}
+{"original":"Ca. 1900- 1910s.","start":1900,"end":1919,"circa":true}
 ,
 {"original":"Originally in Edo era, this print was made ca.1930s.","start":1930,"end":1939,"circa":true}
 ,
@@ -621,7 +621,7 @@
 ,
 {"original":"Japan : [Yamaguchiya Tōbei], 1861.","start":1861,"end":1861}
 ,
-{"original":"c. 1797–8","start":7970,"end":7979,"circa":true}
+{"original":"c. 1797–8","start":1797,"end":1798,"circa":true}
 ,
 {"original":"Taisho period (1912-25).","start":1912,"end":1925}
 ,
@@ -681,11 +681,11 @@
 ,
 {"original":"Eleventh month of 1857 (series published 1856-1858)","start":1856,"end":1858}
 ,
-{"original":"Originally ca. 1834-5, this is a re-carved edition in ca. 1900.","start":8340,"end":8349,"circa":true}
+{"original":"Originally ca. 1834-5, this is a re-carved edition in ca. 1900.","start":1834,"end":1835,"circa":true}
 ,
 {"original":"1946 (printed after 1989)","start":1946,"end":1946}
 ,
-{"original":"Ca. 1910- 20.","start":9100,"end":9109,"circa":true}
+{"original":"Ca. 1910- 20.","start":1910,"end":1920,"circa":true}
 ,
 {"original":"late 1780s or early 1790s","start":1780,"end":1789}
 ,
@@ -707,7 +707,7 @@
 ,
 {"original":"1931 March 15.","start":1931,"end":1931}
 ,
-{"original":"Ca. 1793-4.","start":7930,"end":7939,"circa":true}
+{"original":"Ca. 1793-4.","start":1793,"end":1794,"circa":true}
 ,
 {"original":"Originally ca. 1829-33. This re-carved edition was made probably in 1960s.","start":1829,"end":1833,"circa":true}
 ,
@@ -715,7 +715,7 @@
 ,
 {"original":"This wood block print was made around 1910-20s.","start":1910,"end":1929}
 ,
-{"original":"Made in 1965 for 1966 calender.","start":6500,"end":6599}
+{"original":"Made in 1965 for 1966 calender.","start":1965,"end":1965}
 ,
 {"original":"Probably in Meiji era (1868-1912).","start":1868,"end":1912}
 ,
@@ -747,7 +747,7 @@
 ,
 {"original":"Japan : Moriji (Moriya Jihei), 1824.","start":1824,"end":1824}
 ,
-{"original":"1900- 1910.","start":9000,"end":9009}
+{"original":"1900- 1910.","start":1900,"end":1910}
 ,
 {"original":"1887 June 23.","start":1887,"end":1887}
 ,
@@ -779,7 +779,7 @@
 ,
 {"original":"1828 (Bunsei 5)","start":1828,"end":1828}
 ,
-{"original":"Ca. 1900 -20s.","start":1900,"end":1900,"circa":true}
+{"original":"Ca. 1900 -20s.","start":1900,"end":1929,"circa":true}
 ,
 {"original":"Original album was printed in 1914. This is the later edition printed in 1972.","start":1914,"end":1914}
 ,
@@ -869,7 +869,7 @@
 ,
 {"original":"Originally 1832-33, this re-carved edition was made in unknown date.","start":1832,"end":1833}
 ,
-{"original":"1848 (circa (published posthumously in 1863))","start":4700,"end":4799,"circa":true}
+{"original":"1848 (circa (published posthumously in 1863))","start":1848,"end":1848,"circa":true}
 ,
 {"original":"Printed probably in 1990-2000.","start":1990,"end":2000}
 ,
@@ -899,7 +899,7 @@
 ,
 {"original":"ca. 19–20th century","start":1900,"end":1999,"circa":true}
 ,
-{"original":"c. 1832- 1834","start":8320,"end":8329,"circa":true}
+{"original":"c. 1832- 1834","start":1832,"end":1834,"circa":true}
 ,
 {"original":"Meiji Reproduction","start":1868,"end":1912}
 ,
@@ -917,7 +917,7 @@
 ,
 {"original":"Spring - July 2005.","start":2005,"end":2005}
 ,
-{"original":"Dec 2003 - July 2004.","start":30,"end":39,"circa":true}
+{"original":"Dec 2003 - July 2004.","start":2003,"end":2003,"circa":true}
 ,
 {"original":"Sept - Nov 2003.","start":2003,"end":2003}
 ,
@@ -931,7 +931,7 @@
 ,
 {"original":"April - May 2005.","start":2005,"end":2005}
 ,
-{"original":"Late 2004 - February 2005.","start":40,"end":49}
+{"original":"Late 2004 - February 2005.","start":2004,"end":2004}
 ,
 {"original":"[between ca. 1750 and 1770, printed later]","start":1750,"end":1770,"circa":true}
 ,
@@ -1015,7 +1015,7 @@
 ,
 {"original":"Meiji/early 20th century","start":1900,"end":1924}
 ,
-{"original":"Heian period, 794-1185","start":7940,"end":7949}
+{"original":"Heian period, 794-1185","start":794,"end":1185}
 ,
 {"original":"1870s-1894","start":1870,"end":1894}
 ,
@@ -1079,7 +1079,7 @@
 ,
 {"original":"Japan : [Sanoki], 1862.","start":1862,"end":1862}
 ,
-{"original":"1795 (c. 11th month)","start":9400,"end":9499,"circa":true}
+{"original":"1795 (c. 11th month)","start":1795,"end":1795,"circa":true}
 ,
 {"original":"Ca. early-mid 20th century.","start":1940,"end":1959,"circa":true}
 ,
@@ -1133,8 +1133,6 @@
 ,
 {"original":"1861 (Bunkyu 1, 2nd month)","start":1861,"end":1861}
 ,
-{"original":"Originally in ca. 17980-90s. This re-carved edition was made probably in the early 20th century.","start":7980,"end":7999,"circa":true}
-,
 {"original":"1895 (Meiji 28, 3rd month)","start":1895,"end":1895}
 ,
 {"original":"December 1743 or January 1744","start":1743,"end":1743}
@@ -1163,7 +1161,7 @@
 ,
 {"original":"Second half of the 1850s.","start":1850,"end":1859}
 ,
-{"original":"Originally ca. 1835-6, this re-carved edition was published in unknown date.","start":8350,"end":8359,"circa":true}
+{"original":"Originally ca. 1835-6, this re-carved edition was published in unknown date.","start":1835,"end":1836,"circa":true}
 ,
 {"original":"Originally in Edo era. This re-carved edition was made probably in early 20th C.","start":1900,"end":1924,"circa":true}
 ,
@@ -1283,7 +1281,7 @@
 ,
 {"original":"Album printed in 1931.","start":1931,"end":1931}
 ,
-{"original":"1720 s Late","start":1720,"end":1720}
+{"original":"1720 s Late","start":1720,"end":1729}
 ,
 {"original":"c. 1790 - 1810s","start":1790,"end":1819,"circa":true}
 ,
@@ -1295,9 +1293,9 @@
 ,
 {"original":"Mid-late 20th C.","start":1975,"end":1999,"circa":true}
 ,
-{"original":"1500 s c.","start":1500,"end":1500,"circa":true}
+{"original":"1500 s c.","start":1500,"end":1509,"circa":true}
 ,
-{"original":"1300 s - 1400 s c.","start":1300,"end":1300,"circa":true}
+{"original":"1300 s - 1400 s c.","start":1300,"end":1409,"circa":true}
 ,
 {"original":"c. 1820s - 1842","start":1820,"end":1842,"circa":true}
 ,
@@ -1305,21 +1303,19 @@
 ,
 {"original":"Originally in 1833, this re-carved edition was made probably in the early 20th century.","start":1900,"end":1924}
 ,
-{"original":"ca. 764–70","start":7640,"end":7649,"circa":true}
+{"original":"ca. 764–70","start":764,"end":770,"circa":true}
 ,
 {"original":"1878 Sept.","start":1878,"end":1878}
 ,
-{"original":"c. 18332 - 1834","start":8332,"end":1834,"circa":true}
-,
 {"original":"mid to late 1750s","start":1750,"end":1759}
 ,
-{"original":"Heian period, Late, 898-1185","start":8980,"end":8989}
+{"original":"Heian period, Late, 898-1185","start":898,"end":1185}
 ,
 {"original":"late 1720âs","start":1720,"end":1720}
 ,
 {"original":"Originally in Edo era. This re-carved edition was published ca. middle 20th century.","start":1940,"end":1959,"circa":true}
 ,
-{"original":"1900- 1910s.","start":1910,"end":1919}
+{"original":"1900- 1910s.","start":1900,"end":1919}
 ,
 {"original":"Sept. 1989","start":1989,"end":1989}
 ,
@@ -1341,7 +1337,7 @@
 ,
 {"original":"c. 1920 (from newly carved blocks)","start":1920,"end":1920,"circa":true}
 ,
-{"original":"c. 1767/8","start":1767,"end":1767,"circa":true}
+{"original":"c. 1767/8","start":1767,"end":1768,"circa":true}
 ,
 {"original":"Originally in 1856-58, this recarved edition was made probably in mid 20th century.","start":1856,"end":1858}
 ,
@@ -1367,13 +1363,13 @@
 ,
 {"original":"1880 (early 19th century reproduction)","start":1800,"end":1824}
 ,
-{"original":"1920 (contemporary reproduction)","start":1900,"end":1999}
+{"original":"1920 (contemporary reproduction)","start":1920,"end":1920}
 ,
 {"original":"1960s (ca.)","start":1960,"end":1969,"circa":true}
 ,
 {"original":"c. 1930 (posthumously printed)","start":1930,"end":1930,"circa":true}
 ,
-{"original":"1932 (contemporary printing)","start":3100,"end":3199}
+{"original":"1932 (contemporary printing)","start":1932,"end":1932}
 ,
 {"original":"1950 (printed posthumously)","start":1950,"end":1950}
 ,
@@ -1415,7 +1411,7 @@
 ,
 {"original":"Late Meiji Period","start":1868,"end":1912}
 ,
-{"original":"Ca. 1900 -1910.","start":1900,"end":1900,"circa":true}
+{"original":"Ca. 1900 -1910.","start":1900,"end":1910,"circa":true}
 ,
 {"original":"Ca. 1833 (Tenpo 4).","start":1833,"end":1833,"circa":true}
 ,
@@ -1439,7 +1435,7 @@
 ,
 {"original":"Japan : Kinrindō, 1860.","start":1860,"end":1860}
 ,
-{"original":"May 1997 - May 1998.","start":9970,"end":9979}
+{"original":"May 1997 - May 1998.","start":1997,"end":1997}
 ,
 {"original":"Originally in Edo period. This is a re-carved edition made in early 20th century.","start":1900,"end":1924}
 ,
@@ -1563,7 +1559,7 @@
 ,
 {"original":"Originally in 1829 - 1833. This re-carved edition was made probably in early 20th century.","start":1829,"end":1833}
 ,
-{"original":"Originally in Edo era. This reproduction was made probably in 1890 -1910.","start":1890,"end":1890}
+{"original":"Originally in Edo era. This reproduction was made probably in 1890 -1910.","start":1890,"end":1910}
 ,
 {"original":"Originally in Edo era, this one is re-carved edition in early 20th C.","start":1900,"end":1924,"circa":true}
 ,
@@ -1907,7 +1903,7 @@
 ,
 {"original":"c. 1769/1770","start":1769,"end":1770,"circa":true}
 ,
-{"original":"1870 (circa;reissue)","start":6900,"end":6999,"circa":true}
+{"original":"1870 (circa;reissue)","start":1870,"end":1870,"circa":true}
 ,
 {"original":"Originally in Edo era. This re-carved edition was made ca. 1915.","start":1915,"end":1915,"circa":true}
 ,
@@ -1943,7 +1939,7 @@
 ,
 {"original":"1684 (Empo 5)","start":1684,"end":1684}
 ,
-{"original":"1835 (c. designed)","start":3400,"end":3499,"circa":true}
+{"original":"1835 (c. designed)","start":1835,"end":1835,"circa":true}
 ,
 {"original":"Originally in Edo era.","start":1603,"end":1867}
 ,
@@ -1973,7 +1969,7 @@
 ,
 {"original":"1866 (6/1866?)","start":1866,"end":1866,"circa":true}
 ,
-{"original":"1760 (cica)","start":5900,"end":5999}
+{"original":"1760 (cica)","start":1760,"end":1760}
 ,
 {"original":"13thC-14thC","start":1200,"end":1299}
 ,
@@ -2033,7 +2029,7 @@
 ,
 {"original":"1858 (dated 4th month)","start":1858,"end":1858}
 ,
-{"original":"1760 (c. ?)","start":5900,"end":5999,"circa":true}
+{"original":"1760 (c. ?)","start":1760,"end":1760,"circa":true}
 ,
 {"original":"1794 (original print)","start":1794,"end":1794}
 ,
@@ -2045,7 +2041,7 @@
 ,
 {"original":"Sixth month of1856 (series published 1856-1858)","start":1856,"end":1858}
 ,
-{"original":"Heisei period, 1989-present","start":9890,"end":9899}
+{"original":"Heisei period, 1989-present","start":1989,"end":1989}
 ,
 {"original":"1902, October 20.","start":1902,"end":1902}
 ,
@@ -2063,8 +2059,6 @@
 ,
 {"original":"Originally in Edo era, this re-carved edition was made probably in11950s.","start":1950,"end":1959}
 ,
-{"original":"ca. 17500–1825","start":7500,"end":1825,"circa":true}
-,
 {"original":"Original in Edo era. These re-carved editions were published probably in early 20th Century.","start":1900,"end":1924}
 ,
 {"original":"fall 1860","start":1860,"end":1860}
@@ -2073,7 +2067,7 @@
 ,
 {"original":"The series was published originally in 1844-48. This edition was made in Meiji period.","start":1844,"end":1848}
 ,
-{"original":"1830 -1844","start":1830,"end":1830}
+{"original":"1830 -1844","start":1830,"end":1844}
 ,
 {"original":"Originally published in Edo era. This edition was made in Meiji period.","start":1603,"end":1867}
 ,
@@ -2085,11 +2079,11 @@
 ,
 {"original":"Originally in 1865. This edition was published in 1881.","start":1865,"end":1865}
 ,
-{"original":"early 1810 s","start":1810,"end":1810}
+{"original":"early 1810 s","start":1810,"end":1819}
 ,
 {"original":"Original was made in early 20th century.","start":1900,"end":1924}
 ,
-{"original":"1750 s early","start":1750,"end":1750}
+{"original":"1750 s early","start":1750,"end":1759}
 ,
 {"original":"late 1750âs - early 1760âs","start":1750,"end":1750}
 ,
@@ -2103,13 +2097,13 @@
 ,
 {"original":"Edo period, late 1830s","start":1830,"end":1839}
 ,
-{"original":"1600 s c. early","start":1600,"end":1600,"circa":true}
+{"original":"1600 s c. early","start":1600,"end":1609,"circa":true}
 ,
 {"original":"Originally in 1856-58, this is probably made in 1910-15.","start":1856,"end":1858}
 ,
-{"original":"1300 s- 1400 s c. late","start":1300,"end":1300,"circa":true}
+{"original":"1300 s- 1400 s c. late","start":1300,"end":1409,"circa":true}
 ,
-{"original":"c. 1843 -1847","start":1843,"end":1843,"circa":true}
+{"original":"c. 1843 -1847","start":1843,"end":1847,"circa":true}
 ,
 {"original":"Early to mid 1830s","start":1830,"end":1839}
 ,
@@ -2163,7 +2157,7 @@
 ,
 {"original":"c. 1930 (2nd state)","start":1930,"end":1930,"circa":true}
 ,
-{"original":"1835/6","start":1835,"end":1835}
+{"original":"1835/6","start":1835,"end":1836}
 ,
 {"original":"The series originally ca. 1830-1842. This edition was probably in early 20th C.","start":1830,"end":1842,"circa":true}
 ,
@@ -2619,7 +2613,7 @@
 ,
 {"original":"Originally in Edo era. This re-carved edition was made probably in 1890 - 1900s.","start":1890,"end":1909}
 ,
-{"original":"Ca. 1930c.","start":2900,"end":2999,"circa":true}
+{"original":"Ca. 1930c.","start":1930,"end":1930,"circa":true}
 ,
 {"original":"The series of 25 volumes were published during 1890-94.","start":1890,"end":1894}
 ,
@@ -2727,7 +2721,7 @@
 ,
 {"original":"Originally 1900, this re-carved edition was made probably in 1980s.","start":1980,"end":1989}
 ,
-{"original":"1847 -48.","start":1847,"end":1847}
+{"original":"1847 -48.","start":1847,"end":1848}
 ,
 {"original":"1863 (early Kunichika).","start":1863,"end":1863}
 ,
@@ -2863,7 +2857,7 @@
 ,
 {"original":"Not dated (late 1920's)","start":1920,"end":1929}
 ,
-{"original":"Spring: July 2005; Summer: May - July 2003; Autumn: Dec 2003 - July 2004; Winter: Sept - Nov 2003.","start":30,"end":39,"circa":true}
+{"original":"Spring: July 2005; Summer: May - July 2003; Autumn: Dec 2003 - July 2004; Winter: Sept - Nov 2003.","start":2005,"end":2005,"circa":true}
 ,
 {"original":"This woodblock version was made in 1925.","start":1925,"end":1925}
 ,
@@ -2939,11 +2933,11 @@
 ,
 {"original":"Original prints were published in Edo era. This edition was made in unknown date.","start":1603,"end":1867}
 ,
-{"original":"Originally in 829 - 1833. This re-carved version was made in unknown date.","start":8290,"end":8299}
+{"original":"Originally in 829 - 1833. This re-carved version was made in unknown date.","start":829,"end":1833}
 ,
 {"original":"Design 1920 (1950's reproduction)","start":1950,"end":1959}
 ,
-{"original":"Original was made in 1834-5. This edition was published in 1980s.","start":1980,"end":1989}
+{"original":"Original was made in 1834-5. This edition was published in 1980s.","start":1834,"end":1835}
 ,
 {"original":"Originally published in 1934-35. This re-carved edition was published in 1980.","start":1934,"end":1935}
 ,
@@ -2951,7 +2945,7 @@
 ,
 {"original":"Original design 1833 (20th century printing)","start":1900,"end":1999}
 ,
-{"original":"94/300 (accually 94/3000), not dated (1978)","start":3000,"end":3000}
+{"original":"94/300 (accually 94/3000), not dated (1978)","start":1978,"end":1978}
 ,
 {"original":"Osaka, Japan : Motoyasu, [between 1850 and 1900]","start":1850,"end":1900}
 ,
@@ -3055,7 +3049,7 @@
 ,
 {"original":"Japanese, Taishô era?, 20th century","start":1900,"end":1999,"circa":true}
 ,
-{"original":"Ca. 100 - 1910.","start":1000,"end":1009,"circa":true}
+{"original":"Ca. 100 - 1910.","start":100,"end":1910,"circa":true}
 ,
 {"original":"Japanese, Edo period, early 19th century ?","start":1800,"end":1824,"circa":true}
 ,

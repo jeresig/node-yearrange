@@ -2,18 +2,24 @@
 // (Both ASCII and Japanese)
 // http://www.localizingjapan.com/blog/2012/01/20/regular-expressions-for-japanese-text/
 // Include full width characters?
-// Exclude the -, ?, / marks, they're used in some dates
-var puncRegex = /[!"#$%&()*+,.:;<=>@[\\\]^_`{|}~\u3000-\u303F]/g;
+// Exclude the -, ?, /, ~ marks, they're used in some dates
+var puncRegex = /[!"#$%&()*+,.:;<=>@[\\\]^_`{|}\u3000-\u303F]/g;
 
 module.exports = {
     extraRules: [
         [/\bca\b|circa|c\s*\d|\bc\b|\?/, function(match, date) {
             date.circa = true;
+        }],
+        [/(\d+)歳/, function(match, date) {
+            if (date.end) {
+                // +1 because you start at 1 when born in Japan
+                date.start = date.end - match[1] + 1;
+            }
         }]
     ],
 
     dateRules: [
-        [/(\d{4})s?[-\/](\d{4})s/, function(match, date) {
+        [/(\d{4})s?[-\/~](\d{4})s/, function(match, date) {
             date.start = match[1];
             date.end = match[2].substr(0, 3) + "9";
         }],
@@ -83,6 +89,16 @@ module.exports = {
         [/(?:^|\D)(\d{2})(?:th)?\s*[cｃ](?:\W|$)/, function(match, date) {
             date.start = (parseFloat(match[1]) - 1) * 100;
             date.end = ((parseFloat(match[1]) - 1) * 100) + 99;
+        }],
+        [/(\d{4})[\s\S]*?~[\s\S]*?(\d{4})/, function(match, date) {
+            date.start = match[1];
+            date.end = match[2];
+        }],
+        [/[?][\s\S]*?~[\s\S]*?(\d{4})/, function(match, date) {
+            date.end = match[1];
+        }],
+        [/(\d{4})[\s\S]*?~[\s\S]*?[?]/, function(match, date) {
+            date.start = match[1];
         }],
         [/(\d{4})s/, function(match, date) {
             date.start = match[1];
@@ -154,7 +170,7 @@ module.exports = {
             }
         }
 
-        if (date.start) {
+        if (date.start || date.end) {
             for (var i = 0; i < this.extraRules.length; i++) {
                 var rule = this.extraRules[i];
                 var match = rule[0].exec(str);
@@ -168,6 +184,7 @@ module.exports = {
     },
 
     cleanString: function(str) {
+        str = this.convertFullWidth(str);
         str = str.toLowerCase();
         str = this.stripPunctuation(str);
         return str;
@@ -185,5 +202,11 @@ module.exports = {
             .replace(/\s*-\s*/g, "-")
             .replace(/\s+/, " ")
             .trim();
+    },
+
+    convertFullWidth: function(str) {
+        return str.replace(/[\uFF01-\uFF65]/g, function(n) {
+            return String.fromCharCode(n.charCodeAt(0) - 65248);
+        });
     }
 };

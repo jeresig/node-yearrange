@@ -16,8 +16,11 @@ var test = function(date) {
 };
 
 var tests = [
+    { original: 'Tsukimaro (fl. 1800 - 1830)',
+      start: 1800,
+      end: 1830 },
     { original: "100 Poets" },
-    {original: "Kamakura Bofu (鎌倉坊風) (vol. 2, kyoka, covered pleasure-boat at a landing-stage)"},
+    { original: "Kamakura Bofu (鎌倉坊風) (vol. 2, kyoka, covered pleasure-boat at a landing-stage)" },
     { original: 'Gigado Ashiyuki (芦幸) (c.1813-34)',
       start: 1813,
       end: 1834,

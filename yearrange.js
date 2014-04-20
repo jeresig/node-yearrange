@@ -145,6 +145,14 @@ module.exports = {
     ],
 
     parse: function(str) {
+        if (!str) {
+            return;
+        }
+
+        if (typeof str !== "string") {
+            return str;
+        }
+
         var date = {
             original: str
         };

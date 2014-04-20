@@ -16,6 +16,15 @@ var test = function(date) {
 };
 
 var tests = [
+    { original: "100 Poets" },
+    {original: "Kamakura Bofu (鎌倉坊風) (vol. 2, kyoka, covered pleasure-boat at a landing-stage)"},
+    { original: 'Gigado Ashiyuki (芦幸) (c.1813-34)',
+      start: 1813,
+      end: 1834,
+      circa: true },
+    { original: 'Yamagata Soshin (山形素真) (1818-62)',
+      start: 1818,
+      end: 1862 },
     { original: '〔 ？ ～ 安政３年（1856）・５３歳〕',
       end: 1856,
       circa: true,

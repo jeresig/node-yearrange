@@ -16,6 +16,9 @@ var test = function(date) {
 };
 
 var tests = [
+    { original: '1st day of 10th month of 42nd year of Meiji Period',
+      start: 1910,
+      end: 1910 },
     { original: 'Tsukimaro (fl. 1800 - 1830)',
       start: 1800,
       end: 1830 },

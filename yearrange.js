@@ -15,6 +15,11 @@ module.exports = {
                 // +1 because you start at 1 when born in Japan
                 date.start = date.end - match[1] + 1;
             }
+        }],
+        [/(\d+)(?:nd|th|rd) year.*(?:\b(?:meiji|sh.wa|taish.|heisei|edo)\b|江戸時代)/, function(match, date) {
+            if (date.start) {
+                date.start = date.end = date.start + (match[1] - 0);
+            }
         }]
     ],
 

@@ -4,6 +4,8 @@ var through = require("through");
 var JSONStream = require("JSONStream");
 var yr = require("../yearrange");
 
+yr.debug = true;
+
 var test = function(date) {
     var result = yr.parse(date.original);
     try {

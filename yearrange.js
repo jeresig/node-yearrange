@@ -32,6 +32,10 @@ module.exports = {
             date.start = match[1];
             date.end = match[2];
         }],
+        [/(\d{4})s?[-\/]\s*(present)/, function(match, date) {
+            date.start = match[1];
+            date.end = (new Date).getYear() + 1900;
+        }],
         [/(\d{4}) (?:and|or|to|through) (\d{4})/, function(match, date) {
             date.start = match[1];
             date.end = match[2];
@@ -70,7 +74,7 @@ module.exports = {
                 date.end -= 75;
             }
         }],
-        [/(\d{2})th[-\/](\d{2})th century/, function(match, date) {
+        [/(\d{2})th(?:[-\/]|\sto\s)(\d{2})th century/, function(match, date) {
             date.start = (parseFloat(match[1]) - 1) * 100;
             date.end = ((parseFloat(match[2]) - 1) * 100) + 99;
         }],
@@ -130,6 +134,7 @@ module.exports = {
                 date.end = 1867;
             } else if (match[1] === "heisei") {
                 date.start = 1989;
+                // This is a bit weird, should probably be dynamic
                 date.end = (new Date).getYear() + 1900;
             } else if (match[1].indexOf("taish") === 0) {
                 date.start = 1912;
@@ -168,6 +173,10 @@ module.exports = {
             var rule = this.dateRules[i];
             var match = rule[0].exec(str);
             if (match) {
+                if (this.debug) {
+                    console.log("hit", rule[0]);
+                }
+
                 if (!date) {
                     date = {};
                 }
@@ -188,6 +197,10 @@ module.exports = {
                 var rule = this.extraRules[i];
                 var match = rule[0].exec(str);
                 if (match) {
+                    if (this.debug) {
+                        console.log("extra hit", rule[0]);
+                    }
+
                     rule[1](match, date);
                 }
             }

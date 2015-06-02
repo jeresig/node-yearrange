@@ -23,6 +23,33 @@ module.exports = {
         }]
     ],
 
+    centuryOffset: {
+        "first half": {
+            start: 0,
+            end: -50
+        },
+        "second half": {
+            start: 50,
+            end: 0
+        },
+        "late": {
+            start: 75,
+            end: 0
+        },
+        "mid": {
+            start: 40,
+            end: -40
+        },
+        "middle": {
+            start: 40,
+            end: -40
+        },
+        "early": {
+            start: 0,
+            end: -75
+        }
+    },
+
     dateRules: [
         [/(\d{4})s?[-\/~](\d{4})s/, function(match, date) {
             date.start = match[1];
@@ -61,17 +88,16 @@ module.exports = {
             date.start = match[1];
             date.end = match[1].substr(0, 1) + match[2];
         }],
-        [/(late|early|mid(?:dle)?)\s+(\d{2})th century/, function(match, date) {
+        [/(first half|second half|late|early|mid(?:dle)?)\s+(\d{2})th century/, function(match, date) {
             date.start = (parseFloat(match[2]) - 1) * 100;
             date.end = ((parseFloat(match[2]) - 1) * 100) + 99;
 
-            if (match[1] === "late") {
-                date.start += 75;
-            } else if (match[1].indexOf("mid") === 0) {
-                date.start += 40;
-                date.end -= 40;
-            } else if (match[1] === "early") {
-                date.end -= 75;
+            if (match[1] in this.centuryOffset) {
+                var offset = this.centuryOffset[match[1]];
+                date.start += offset.start;
+                date.end += offset.end;
+            } else {
+                throw "Missing century offset: " + match[1];
             }
         }],
         [/(\d{2})th(?:[-\/]|\sto\s)(\d{2})th century/, function(match, date) {
@@ -82,17 +108,16 @@ module.exports = {
             date.start = (parseFloat(match[1]) - 1) * 100;
             date.end = ((parseFloat(match[1]) - 1) * 100) + 99;
         }],
-        [/(late|early|mid(?:dle)?)\s+(\d{2})(?:th\s*)?c/, function(match, date) {
+        [/(first half|second half|late|early|mid(?:dle)?)\s+(\d{2})(?:th\s*)?c/, function(match, date) {
             date.start = (parseFloat(match[2]) - 1) * 100;
             date.end = ((parseFloat(match[2]) - 1) * 100) + 99;
 
-            if (match[1] === "late") {
-                date.start += 75;
-            } else if (match[1].indexOf("mid") === 0) {
-                date.start += 40;
-                date.end -= 40;
-            } else if (match[1] === "early") {
-                date.end -= 75;
+            if (match[1] in this.centuryOffset) {
+                var offset = this.centuryOffset[match[1]];
+                date.start += offset.start;
+                date.end += offset.end;
+            } else {
+                throw "Missing century offset: " + match[1];
             }
         }],
         [/(?:^|\D)(\d{2})(?:th)?\s*[cｃ](?:\W|$)/, function(match, date) {
@@ -181,7 +206,7 @@ module.exports = {
                     date = {};
                 }
 
-                rule[1](match, date);
+                rule[1].call(this, match, date);
 
                 for (var prop in date) {
                     if (typeof date[prop] === "string" && prop !== "original") {
@@ -201,7 +226,7 @@ module.exports = {
                         console.log("extra hit", rule[0]);
                     }
 
-                    rule[1](match, date);
+                    rule[1].call(this, match, date);
                 }
             }
         }

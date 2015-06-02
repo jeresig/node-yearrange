@@ -2063,7 +2063,7 @@
 ,
 {"original":"fall 1860","start":1860,"end":1860}
 ,
-{"original":"ca. first half 19th century","start":1800,"end":1899,"circa":true}
+{"original":"ca. first half 19th century","start":1800,"end":1849,"circa":true}
 ,
 {"original":"The series was published originally in 1844-48. This edition was made in Meiji period.","start":1844,"end":1848}
 ,
@@ -3097,7 +3097,7 @@
 ,
 {"original":"14th to 15th Century.","start":1300,"end":1499}
 ,
-{"original":"Second half 14th century.","start":1300,"end":1399}
+{"original":"Second half 14th century.","start":1350,"end":1399}
 ,
 {"original":"1519","start":1519,"end":1519}
 ,
@@ -3115,7 +3115,7 @@
 ,
 {"original":"Mid 17th century.","start":1640,"end":1659}
 ,
-{"original":"First half 17th century.","start":1600,"end":1699}
+{"original":"First half 17th century.","start":1600,"end":1649}
 ,
 {"original":"Late 17th century.","start":1675,"end":1699}
 ,
@@ -3275,7 +3275,7 @@
 ,
 {"original":"c. 1460-1470; c.1475.","start":1460,"end":1470,"circa":true}
 ,
-{"original":"second half, 14th century.","start":1300,"end":1399}
+{"original":"second half, 14th century.","start":1350,"end":1399}
 ,
 {"original":"not earlier than 1450.","start":1450,"end":1450}
 ,

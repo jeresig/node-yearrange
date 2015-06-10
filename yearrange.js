@@ -44,6 +44,10 @@ module.exports = {
             start: 40,
             end: -40
         },
+        "middle of": {
+            start: 40,
+            end: -40
+        },
         "early": {
             start: 0,
             end: -75
@@ -88,7 +92,7 @@ module.exports = {
             date.start = match[1];
             date.end = match[1].substr(0, 1) + match[2];
         }],
-        [/(first half|second half|late|early|mid(?:dle)?)\s+(\d{2})th century/, function(match, date) {
+        [/(first half|second half|late|early|mid(?:dle)?|middle of)\s+(\d{2})th century/, function(match, date) {
             date.start = (parseFloat(match[2]) - 1) * 100;
             date.end = ((parseFloat(match[2]) - 1) * 100) + 99;
 
@@ -108,7 +112,7 @@ module.exports = {
             date.start = (parseFloat(match[1]) - 1) * 100;
             date.end = ((parseFloat(match[1]) - 1) * 100) + 99;
         }],
-        [/(first half|second half|late|early|mid(?:dle)?)\s+(\d{2})(?:th\s*)?c/, function(match, date) {
+        [/(first half|second half|late|early|mid(?:dle)?|middle of)\s+(\d{2})(?:th\s*)?c/, function(match, date) {
             date.start = (parseFloat(match[2]) - 1) * 100;
             date.end = ((parseFloat(match[2]) - 1) * 100) + 99;
 

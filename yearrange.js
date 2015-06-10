@@ -55,7 +55,7 @@ module.exports = {
     },
 
     dateRules: [
-        [/(\d{4})s?[-\/~](\d{4})s/, function(match, date) {
+        [/(\d{3,4})s?[-\/~](\d{3,4})s/, function(match, date) {
             date.start = match[1];
             date.end = match[2].substr(0, 3) + "9";
         }],
@@ -63,26 +63,30 @@ module.exports = {
             date.start = match[1];
             date.end = match[2];
         }],
-        [/(\d{4})s?[-\/]\s*(present)/, function(match, date) {
-            date.start = match[1];
-            date.end = (new Date).getYear() + 1900;
-        }],
-        [/(\d{4}) (?:and|or|to|through) (\d{4})/, function(match, date) {
+        [/(\d{3,4})s?[-](\d{3,4})(?:\D|$)/, function(match, date) {
             date.start = match[1];
             date.end = match[2];
         }],
-        [/(\d{4})s?[-\/](\d{2})s/, function(match, date) {
+        [/(\d{3,4})s?[-\/]\s*(present)/, function(match, date) {
+            date.start = match[1];
+            date.end = (new Date).getYear() + 1900;
+        }],
+        [/(\d{3,4}) (?:and|or|to|through) (\d{3,4})/, function(match, date) {
+            date.start = match[1];
+            date.end = match[2];
+        }],
+        [/(\d{3,4})s?[-\/](\d{2})s/, function(match, date) {
             date.start = match[1];
             date.end = match[1].substr(0, 2) +
                 match[2].substr(0, 1) + "9";
         }],
-        [/(\d{4})s?[-\/](\d{2})(?:\D|$)/, function(match, date) {
+        [/(\d{3,4})s?[-\/](\d{2})(?:\D|$)/, function(match, date) {
             date.start = match[1];
-            date.end = match[1].substr(0, 2) + match[2];
+            date.end = date.start.substr(0, date.start.length - 2) + match[2];
         }],
-        [/(\d{4})s?[-\/](\d{1})(?:\D|$)/, function(match, date) {
+        [/(\d{3,4})s?[-\/](\d{1})(?:\D|$)/, function(match, date) {
             date.start = match[1];
-            date.end = match[1].substr(0, 3) + match[2];
+            date.end = date.start.substr(0, date.start.length - 1) + match[2];
         }],
         [/(\d{3})s?-(\d{4})(?:\D|$)/, function(match, date) {
             date.start = match[1];

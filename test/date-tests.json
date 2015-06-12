@@ -307,7 +307,7 @@
 ,
 {"original":"Not dated (Meiji Period 1867-1912)","start":1867,"end":1912}
 ,
-{"original":"late 10th–early 12th century","start":1100,"end":1124}
+{"original":"late 10th–early 12th century","start":975,"end":1124}
 ,
 {"original":"Originally in Edo era. This re-carved edition was made probably in 1950s.","start":1950,"end":1959}
 ,
@@ -599,7 +599,7 @@
 ,
 {"original":"1894 (Meiji 27, 12th month)","start":1894,"end":1894}
 ,
-{"original":"Japanese, Meiji era, late 19th to early 20th century","start":1900,"end":1924}
+{"original":"Japanese, Meiji era, late 19th to early 20th century","start":1875,"end":1924}
 ,
 {"original":"Mid - late 20th century.","start":1975,"end":1999}
 ,
@@ -667,7 +667,7 @@
 ,
 {"original":"Later 20th C.","start":1900,"end":1999,"circa":true}
 ,
-{"original":"late 19th-mid 20th century","start":1940,"end":1959}
+{"original":"late 19th-mid 20th century","start":1875,"end":1959}
 ,
 {"original":"c1930s (this item: Pre-war strike)","start":1930,"end":1939,"circa":true}
 ,
@@ -1197,7 +1197,7 @@
 ,
 {"original":"Originally in 1856-58, this is re-carved edition made in unknown date.","start":1856,"end":1858}
 ,
-{"original":"early 19th-mid 19th century","start":1840,"end":1859}
+{"original":"early 19th-mid 19th century","start":1800,"end":1859}
 ,
 {"original":"c1960s (this item: Later edition)","start":1960,"end":1969,"circa":true}
 ,
@@ -2573,7 +2573,7 @@
 ,
 {"original":"late 19th–mid-20th century","start":1900,"end":1999}
 ,
-{"original":"18th or early 19th century","start":1800,"end":1824}
+{"original":"18th or early 19th century","start":1700,"end":1824}
 ,
 {"original":"1863 (Bunkyo 3, 4th month)","start":1863,"end":1863}
 ,
@@ -2681,7 +2681,7 @@
 ,
 {"original":"江戸時代＿天保年間(1830-44)前","start":1830,"end":1844}
 ,
-{"original":"Ca. late 19th - early 20th century.","start":1900,"end":1924,"circa":true}
+{"original":"Ca. late 19th - early 20th century.","start":1875,"end":1924,"circa":true}
 ,
 {"original":"ca. 1960 (this item: First edition)","start":1960,"end":1960,"circa":true}
 ,
@@ -3077,7 +3077,7 @@
 ,
 {"original":"(originally published in Edo era. This is a re-carved edition, published ca. mid 20th C.).","start":1940,"end":1959,"circa":true}
 ,
-{"original":"Japanese, Meiji era, 19th–early 20th century","start":1900,"end":1924}
+{"original":"Japanese, Meiji era, 19th–early 20th century","start":1800,"end":1924}
 ,
 {"original":"Originally in Edo era, this re-carved edition was printed probably in early 20th Century.","start":1900,"end":1924}
 ,
@@ -3105,9 +3105,9 @@
 ,
 {"original":"1460-1535.","start":1460,"end":1535}
 ,
-{"original":"Late 16th or early 17th century.","start":1600,"end":1624}
+{"original":"Late 16th or early 17th century.","start":1575,"end":1624}
 ,
-{"original":"Late 16th to early 17th century.","start":1600,"end":1624}
+{"original":"Late 16th to early 17th century.","start":1575,"end":1624}
 ,
 {"original":"End of 16th century.","start":1500,"end":1599}
 ,
@@ -3179,7 +3179,7 @@
 ,
 {"original":"4th quarter 16th century.","start":1500,"end":1599}
 ,
-{"original":"Mid 16th to mid 17th century.","start":1640,"end":1659}
+{"original":"Mid 16th to mid 17th century.","start":1540,"end":1659}
 ,
 {"original":"c. 1760, in Italy.","start":1760,"end":1760,"circa":true}
 ,
@@ -3243,7 +3243,7 @@
 ,
 {"original":"827-844 during papacy of Pope Gregory VI.","start":827,"end":844}
 ,
-{"original":"12th or early 13th century.","start":1200,"end":1224}
+{"original":"12th or early 13th century.","start":1100,"end":1224}
 ,
 {"original":"c.y 1650.","start":1650,"end":1650,"circa":true}
 ,

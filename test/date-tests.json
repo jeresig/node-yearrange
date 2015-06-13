@@ -235,7 +235,7 @@
 ,
 {"original":"-1791","start":1791,"end":1791}
 ,
-{"original":"mid-19th century","start":1800,"end":1899}
+{"original":"mid-19th century","start":1840,"end":1859}
 ,
 {"original":"Originally in Edo, this one is re-carved probably in 1930s.","start":1930,"end":1939}
 ,
@@ -601,7 +601,7 @@
 ,
 {"original":"Japanese, Meiji era, late 19th to early 20th century","start":1875,"end":1924}
 ,
-{"original":"Mid - late 20th century.","start":1975,"end":1999}
+{"original":"Mid - late 20th century.","start":1940,"end":1999}
 ,
 {"original":"Printed in 1930s.","start":1930,"end":1939}
 ,
@@ -691,7 +691,7 @@
 ,
 {"original":"c.1880-90's","start":1880,"end":1899,"circa":true}
 ,
-{"original":"Not dated (mid-19th century)","start":1800,"end":1899}
+{"original":"Not dated (mid-19th century)","start":1840,"end":1859}
 ,
 {"original":"Not dated (ca.1930s).","start":1930,"end":1939,"circa":true}
 ,
@@ -1081,7 +1081,7 @@
 ,
 {"original":"1795 (c. 11th month)","start":1795,"end":1795,"circa":true}
 ,
-{"original":"Ca. early-mid 20th century.","start":1940,"end":1959,"circa":true}
+{"original":"Ca. early-mid 20th century.","start":1900,"end":1959,"circa":true}
 ,
 {"original":"1795 (preface dated)","start":1795,"end":1795}
 ,
@@ -1261,7 +1261,7 @@
 ,
 {"original":"Originally in 1859. This was re-carved edition in ca. 1900.","start":1859,"end":1859,"circa":true}
 ,
-{"original":"Early - mid 20th century.","start":1940,"end":1959}
+{"original":"Early - mid 20th century.","start":1900,"end":1959}
 ,
 {"original":"Originally in 1798, this is a re-carved edition in 1973.","start":1798,"end":1798}
 ,
@@ -2571,7 +2571,7 @@
 ,
 {"original":"Originally published in 1829 - 33, this re-carved edition was made in unknown date.","start":1829,"end":1833}
 ,
-{"original":"late 19th–mid-20th century","start":1900,"end":1999}
+{"original":"late 19th–mid-20th century","start":1875,"end":1959}
 ,
 {"original":"18th or early 19th century","start":1700,"end":1824}
 ,
@@ -3173,7 +3173,7 @@
 ,
 {"original":"Third quarter of 13th century.","start":1200,"end":1299}
 ,
-{"original":"Mid to late 16th century.","start":1575,"end":1599}
+{"original":"Mid to late 16th century.","start":1540,"end":1599}
 ,
 {"original":"Second half of 16th century.","start":1500,"end":1599}
 ,
@@ -3281,7 +3281,7 @@
 ,
 {"original":"end of the 15th century.","start":1400,"end":1499}
 ,
-{"original":"late 15th to early16th century.","start":1500,"end":1599}
+{"original":"late 15th to early16th century.","start":1475,"end":1524}
 ,
 {"original":"probably 1525-1530.","start":1525,"end":1530}
 ,
@@ -3295,5 +3295,5 @@
 ,
 {"original":"1400-1450,","start":1400,"end":1450}
 ,
-{"original":"mid-15th century.","start":1400,"end":1499}
+{"original":"mid-15th century.","start":1440,"end":1459}
 ]

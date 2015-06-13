@@ -24,6 +24,38 @@ module.exports = {
     ],
 
     centuryOffset: {
+        "first quarter": {
+            start: 0,
+            end: -75
+        },
+        "second quarter": {
+            start: 25,
+            end: -50
+        },
+        "third quarter": {
+            start: 50,
+            end: -25
+        },
+        "fourth quarter": {
+            start: 75,
+            end: 0
+        },
+        "1st quarter": {
+            start: 0,
+            end: -75
+        },
+        "2nd quarter": {
+            start: 25,
+            end: -50
+        },
+        "3rd quarter": {
+            start: 50,
+            end: -25
+        },
+        "4th quarter": {
+            start: 75,
+            end: 0
+        },
         "first half": {
             start: 0,
             end: -50

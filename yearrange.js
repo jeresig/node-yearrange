@@ -64,6 +64,14 @@ module.exports = {
             start: 50,
             end: 0
         },
+        "1st half": {
+            start: 0,
+            end: -50
+        },
+        "2nd half": {
+            start: 50,
+            end: 0
+        },
         "end": {
             start: 75,
             end: 0

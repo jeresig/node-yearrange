@@ -140,7 +140,7 @@ module.exports = {
             date.start = match[1];
             date.end = match[1].substr(0, 1) + match[2];
         }],
-        [/:centuryOffset(\d{2})th(?:\s*[-\/]\s*|\sto\s|\sor\s):centuryOffset(\d{2})th century/, function(match, date) {
+        [/:centuryOffset(\d{2})th(?:\s*century\s*)?(?:\s*[-\/]\s*|\sto\s|\sor\s):centuryOffset(\d{2})th century/, function(match, date) {
             date.start = (parseFloat(match[2]) - 1) * 100;
             date.end = ((parseFloat(match[4]) - 1) * 100) + 99;
 
@@ -176,7 +176,7 @@ module.exports = {
                 throw "Missing century offset: " + match[2];
             }
         }],
-        [/:centuryOffset(\d{2})th(?:\s*[-\/]\s*|\sto\s|\sor\s)(\d{2})th century/, function(match, date) {
+        [/:centuryOffset(\d{2})th(?:\s*century\s*)?(?:\s*[-\/]\s*|\sto\s|\sor\s)(\d{2})th century/, function(match, date) {
             date.start = (parseFloat(match[2]) - 1) * 100;
             date.end = ((parseFloat(match[3]) - 1) * 100) + 99;
 
@@ -187,7 +187,7 @@ module.exports = {
                 throw "Missing century offset: " + match[1];
             }
         }],
-        [/(\d{2})th(?:\s*[-\/]\s*|\sto\s|\sor\s):centuryOffset(\d{2})th century/, function(match, date) {
+        [/(\d{2})th(?:\s*century\s*)?(?:\s*[-\/]\s*|\sto\s|\sor\s):centuryOffset(\d{2})th century/, function(match, date) {
             date.start = (parseFloat(match[1]) - 1) * 100;
             date.end = ((parseFloat(match[3]) - 1) * 100) + 99;
 
@@ -210,7 +210,7 @@ module.exports = {
                 throw "Missing century offset: " + match[1];
             }
         }],
-        [/(\d{2})th(?:\s*[-\/]\s*|\sto\s|\sor\s)(\d{2})th century/, function(match, date) {
+        [/(\d{2})th(?:\s*century\s*)?(?:\s*[-\/]\s*|\sto\s|\sor\s)(\d{2})th century/, function(match, date) {
             date.start = (parseFloat(match[1]) - 1) * 100;
             date.end = ((parseFloat(match[2]) - 1) * 100) + 99;
         }],

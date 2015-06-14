@@ -64,6 +64,10 @@ module.exports = {
             start: 50,
             end: 0
         },
+        "end": {
+            start: 75,
+            end: 0
+        },
         "late": {
             start: 75,
             end: 0
@@ -81,6 +85,10 @@ module.exports = {
             end: -40
         },
         "early": {
+            start: 0,
+            end: -75
+        },
+        "start": {
             start: 0,
             end: -75
         }

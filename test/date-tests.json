@@ -1009,7 +1009,7 @@
 ,
 {"original":"c1852","start":1852,"end":1852,"circa":true}
 ,
-{"original":"first half of the 16th century","start":1500,"end":1599}
+{"original":"first half of the 16th century","start":1500,"end":1549}
 ,
 {"original":"[1848 and 1854]","start":1848,"end":1854}
 ,
@@ -3137,7 +3137,7 @@
 ,
 {"original":"After 1385.","start":1385,"end":1385}
 ,
-{"original":"second half of the 14th century.","start":1300,"end":1399}
+{"original":"second half of the 14th century.","start":1350,"end":1399}
 ,
 {"original":"2nd half 14th century.","start":1300,"end":1399}
 ,
@@ -3147,9 +3147,9 @@
 ,
 {"original":"1440s.","start":1440,"end":1449}
 ,
-{"original":"Second quarter of the 15th century.","start":1400,"end":1499}
+{"original":"Second quarter of the 15th century.","start":1425,"end":1449}
 ,
-{"original":"first half of the 15th century.","start":1400,"end":1499}
+{"original":"first half of the 15th century.","start":1400,"end":1449}
 ,
 {"original":"Frist quarter 15th century.","start":1400,"end":1499}
 ,
@@ -3159,7 +3159,7 @@
 ,
 {"original":"Not later than 1540-1550.","start":1540,"end":1550}
 ,
-{"original":"End of the 15th century to beginning of the 16th century.","start":1400,"end":1499}
+{"original":"End of the 15th century to beginning of the 16th century.","start":1475,"end":1499}
 ,
 {"original":"15th-16th century.","start":1400,"end":1599}
 ,
@@ -3279,7 +3279,7 @@
 ,
 {"original":"not earlier than 1450.","start":1450,"end":1450}
 ,
-{"original":"end of the 15th century.","start":1400,"end":1499}
+{"original":"end of the 15th century.","start":1475,"end":1499}
 ,
 {"original":"late 15th to early16th century.","start":1475,"end":1524}
 ,
@@ -3289,9 +3289,9 @@
 ,
 {"original":"circa 1760.","start":1760,"end":1760,"circa":true}
 ,
-{"original":"beginning of the 15th century.","start":1400,"end":1499}
+{"original":"beginning of the 15th century.","start":1400,"end":1424}
 ,
-{"original":"15th century or beginning of the 16th century.","start":1400,"end":1499}
+{"original":"15th century or beginning of the 16th century.","start":1500,"end":1524}
 ,
 {"original":"1400-1450,","start":1400,"end":1450}
 ,

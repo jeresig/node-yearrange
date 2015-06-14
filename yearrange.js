@@ -40,6 +40,10 @@ module.exports = {
             start: 75,
             end: 0
         },
+        "last quarter": {
+            start: 75,
+            end: 0
+        },
         "1st quarter": {
             start: 0,
             end: -75

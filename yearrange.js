@@ -7,7 +7,7 @@ var puncRegex = /[!"#$%&()*+,.:;<=>@[\\\]^_`{|}\u3000-\u303F]/g;
 
 module.exports = {
     extraRules: [
-        [/\bca\b|circa|c\s*\d|\bc\b|\?/, function(match, date) {
+        [/\bca\b|circa|c\s*\d|\bc\b|\?|probably/, function(match, date) {
             date.circa = true;
         }],
         [/(\d+)歳/, function(match, date) {

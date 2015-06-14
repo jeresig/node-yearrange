@@ -121,7 +121,7 @@
 ,
 {"original":"July 1924","start":1924,"end":1924}
 ,
-{"original":"probably 1773","start":1773,"end":1773}
+{"original":"probably 1773","start":1773,"end":1773,"circa":true}
 ,
 {"original":"1876?","start":1876,"end":1876,"circa":true}
 ,
@@ -183,7 +183,7 @@
 ,
 {"original":"Originally in Edo period. This one was a re-carved edition made in ca. 1930s.","start":1930,"end":1939,"circa":true}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made probably in the early 20th century.","start":1900,"end":1924}
+{"original":"Originally in Edo era. This re-carved edition was made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Momoyama period, 1568-1615","start":1568,"end":1615}
 ,
@@ -237,7 +237,7 @@
 ,
 {"original":"mid-19th century","start":1840,"end":1859}
 ,
-{"original":"Originally in Edo, this one is re-carved probably in 1930s.","start":1930,"end":1939}
+{"original":"Originally in Edo, this one is re-carved probably in 1930s.","start":1930,"end":1939,"circa":true}
 ,
 {"original":"Not dated (early 20th C.).","start":1900,"end":1924,"circa":true}
 ,
@@ -291,7 +291,7 @@
 ,
 {"original":"Ca. early 20th C.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"Originally published in 1833/1834. This edition published probably before world war II in 20th century.","start":1833,"end":1834}
+{"original":"Originally published in 1833/1834. This edition published probably before world war II in 20th century.","start":1833,"end":1834,"circa":true}
 ,
 {"original":"Japanese, Edo period, 19th century","start":1800,"end":1899}
 ,
@@ -301,7 +301,7 @@
 ,
 {"original":"Not dated (late 20th century)","start":1975,"end":1999}
 ,
-{"original":"Originally in Edo era. This edition was made probably in the early 20th century.","start":1900,"end":1924}
+{"original":"Originally in Edo era. This edition was made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Edo period, Late to early Meiji period","start":1603,"end":1867}
 ,
@@ -309,7 +309,7 @@
 ,
 {"original":"late 10th–early 12th century","start":975,"end":1124}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made probably in 1950s.","start":1950,"end":1959}
+{"original":"Originally in Edo era. This re-carved edition was made probably in 1950s.","start":1950,"end":1959,"circa":true}
 ,
 {"original":"1896 April.","start":1896,"end":1896}
 ,
@@ -341,7 +341,7 @@
 ,
 {"original":"Not dated (20th century)","start":1900,"end":1999}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made probably in early 20th century.","start":1900,"end":1924}
+{"original":"Originally in Edo era. This re-carved edition was made probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"1932 1980s)","start":1980,"end":1989}
 ,
@@ -471,7 +471,7 @@
 ,
 {"original":"Ca. 18th century.","start":1700,"end":1799,"circa":true}
 ,
-{"original":"Originally in 1833. This edition was published probably in early 20th century.","start":1900,"end":1924}
+{"original":"Originally in 1833. This edition was published probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Originally in Edo era, this is a re-carved edition made in unknown date.","start":1603,"end":1867}
 ,
@@ -607,11 +607,11 @@
 ,
 {"original":"Originally in Edo period. This is a re-carved edition made in ca. 1900.","start":1900,"end":1900,"circa":true}
 ,
-{"original":"Originally in 1833. This edition was published probably in the early 20th century.","start":1900,"end":1924}
+{"original":"Originally in 1833. This edition was published probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"c. early 1840s","start":1840,"end":1849,"circa":true}
 ,
-{"original":"This edition was printed probably around 1890s.","start":1890,"end":1899}
+{"original":"This edition was printed probably around 1890s.","start":1890,"end":1899,"circa":true}
 ,
 {"original":"[1794, printed between 1918 and 1923]","start":1918,"end":1923}
 ,
@@ -655,7 +655,7 @@
 ,
 {"original":"Originally in 1829-33, this re-carved edition was made in unknown date.","start":1829,"end":1833}
 ,
-{"original":"Probably in Edo era.","start":1603,"end":1867}
+{"original":"Probably in Edo era.","start":1603,"end":1867,"circa":true}
 ,
 {"original":"Originally ca. 1829-33, this one was re-carved in unknown date.","start":1829,"end":1833,"circa":true}
 ,
@@ -717,7 +717,7 @@
 ,
 {"original":"Made in 1965 for 1966 calender.","start":1965,"end":1965}
 ,
-{"original":"Probably in Meiji era (1868-1912).","start":1868,"end":1912}
+{"original":"Probably in Meiji era (1868-1912).","start":1868,"end":1912,"circa":true}
 ,
 {"original":"1831 (Year of the Rabbit).","start":1831,"end":1831}
 ,
@@ -795,13 +795,13 @@
 ,
 {"original":"Original design 1830's (reproduction)","start":1830,"end":1839}
 ,
-{"original":"Oliginally in 1857. This edition was made probably in the early 20th century.","start":1900,"end":1924}
+{"original":"Oliginally in 1857. This edition was made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"Originally in Edo era, this one was published probably in early 20th Century.","start":1900,"end":1924}
+{"original":"Originally in Edo era, this one was published probably in early 20th Century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"5/200, not dated (1982)","start":1982,"end":1982}
 ,
-{"original":"The series was published originally in 1829. This edition was made probably in early Meiji period.","start":1829,"end":1829}
+{"original":"The series was published originally in 1829. This edition was made probably in early Meiji period.","start":1829,"end":1829,"circa":true}
 ,
 {"original":"20 Century reproduction of 1829-33 print","start":1829,"end":1833}
 ,
@@ -811,7 +811,7 @@
 ,
 {"original":"Ca. 1850s. This edition was made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"Originally in Edo era. This one was made probably in 1890's.","start":1890,"end":1899}
+{"original":"Originally in Edo era. This one was made probably in 1890's.","start":1890,"end":1899,"circa":true}
 ,
 {"original":"Originally published in 1833. This edition was published probably in early 20th C.","start":1900,"end":1924,"circa":true}
 ,
@@ -839,39 +839,39 @@
 ,
 {"original":"Originally in Edo era, this one is re-carved edition of unknown date.","start":1603,"end":1867}
 ,
-{"original":"Originally in Edo era. This edition was made probably in the mid 20th century.","start":1940,"end":1959}
+{"original":"Originally in Edo era. This edition was made probably in the mid 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"Early 20th C. copy of original published in 1833.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Originally in Edo era. This print was made in unknown date.","start":1603,"end":1867}
 ,
-{"original":"Originally in 1770. This edition was made probably in the middle 20th century.","start":1940,"end":1959}
+{"original":"Originally in 1770. This edition was made probably in the middle 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"1840 (about)","start":1840,"end":1840}
 ,
-{"original":"Originally in 1857. This edition was printed probably in 1900-1920.","start":1900,"end":1920}
+{"original":"Originally in 1857. This edition was printed probably in 1900-1920.","start":1900,"end":1920,"circa":true}
 ,
-{"original":"Originally published in 1829-33. This edition was made probably in the early 20th century.","start":1829,"end":1833}
+{"original":"Originally published in 1829-33. This edition was made probably in the early 20th century.","start":1829,"end":1833,"circa":true}
 ,
-{"original":"Originally in 1835-36. This re-carved edition was published probably in the early 20th century.","start":1835,"end":1836}
+{"original":"Originally in 1835-36. This re-carved edition was published probably in the early 20th century.","start":1835,"end":1836,"circa":true}
 ,
 {"original":"18 April 1890","start":1890,"end":1890}
 ,
-{"original":"Originally 1834, 35. This one was later printing probably in 1860s.","start":1860,"end":1869}
+{"original":"Originally 1834, 35. This one was later printing probably in 1860s.","start":1860,"end":1869,"circa":true}
 ,
 {"original":"1780-1850 (?; artist)","start":1780,"end":1850,"circa":true}
 ,
-{"original":"Originally in 1853. This re-carved edition was made probably in the middle 20th century.","start":1940,"end":1959}
+{"original":"Originally in 1853. This re-carved edition was made probably in the middle 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"1929 (summer)","start":1929,"end":1929}
 ,
-{"original":"Originally in 1837-38, this is a re-carved edition was made probably in the early 20th century.","start":1837,"end":1838}
+{"original":"Originally in 1837-38, this is a re-carved edition was made probably in the early 20th century.","start":1837,"end":1838,"circa":true}
 ,
 {"original":"Originally 1832-33, this re-carved edition was made in unknown date.","start":1832,"end":1833}
 ,
 {"original":"1848 (circa (published posthumously in 1863))","start":1848,"end":1848,"circa":true}
 ,
-{"original":"Printed probably in 1990-2000.","start":1990,"end":2000}
+{"original":"Printed probably in 1990-2000.","start":1990,"end":2000,"circa":true}
 ,
 {"original":"1871 (or)","start":1871,"end":1871}
 ,
@@ -887,7 +887,7 @@
 ,
 {"original":"1 April 1904","start":1904,"end":1904}
 ,
-{"original":"Originally in 1833. This re-carved edition was published probably in early 20th century.","start":1900,"end":1924}
+{"original":"Originally in 1833. This re-carved edition was published probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Originally in Edo era. This is a Meiji A-copy published in early 1890s.","start":1890,"end":1899}
 ,
@@ -895,7 +895,7 @@
 ,
 {"original":"1855 (Seventh month)","start":1855,"end":1855}
 ,
-{"original":"Originally in 1920. This reproduction was made probably in 1950s.","start":1950,"end":1959}
+{"original":"Originally in 1920. This reproduction was made probably in 1950s.","start":1950,"end":1959,"circa":true}
 ,
 {"original":"ca. 19–20th century","start":1900,"end":1999,"circa":true}
 ,
@@ -905,9 +905,9 @@
 ,
 {"original":"20th century Reproduction","start":1900,"end":1999}
 ,
-{"original":"Probably in mid 20th century.","start":1940,"end":1959}
+{"original":"Probably in mid 20th century.","start":1940,"end":1959,"circa":true}
 ,
-{"original":"Originally published in late 1830s. This edition was made probably in early 20th century.","start":1900,"end":1924}
+{"original":"Originally published in late 1830s. This edition was made probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Not dated (early 20th century).","start":1900,"end":1924}
 ,
@@ -959,7 +959,7 @@
 ,
 {"original":"Originally in 1837-38, this is a re-carved edition in early 20th Century.","start":1837,"end":1838}
 ,
-{"original":"Probably in 1930s.","start":1930,"end":1939}
+{"original":"Probably in 1930s.","start":1930,"end":1939,"circa":true}
 ,
 {"original":"Originally in Edo era. This re-carved edition was published in ca. early 20th C.","start":1900,"end":1924,"circa":true}
 ,
@@ -969,7 +969,7 @@
 ,
 {"original":"1816 (third month)","start":1816,"end":1816}
 ,
-{"original":"Probably in Meiji era.","start":1868,"end":1912}
+{"original":"Probably in Meiji era.","start":1868,"end":1912,"circa":true}
 ,
 {"original":"Ca. late 19th C.","start":1875,"end":1899,"circa":true}
 ,
@@ -991,7 +991,7 @@
 ,
 {"original":"Originally in 1778. This book was published in Meiji era.","start":1778,"end":1778}
 ,
-{"original":"Originally in 1856-58, this edition was made probably in mid 20th C.","start":1856,"end":1858,"circa":true}
+{"original":"Originally in 1856-58, this edition was made probably in mid 20th C.","start":1856,"end":1858,"circa":true,"circa":true}
 ,
 {"original":"Originally in 1933, this one is re-carved edition in 1970s.","start":1970,"end":1979}
 ,
@@ -1019,11 +1019,11 @@
 ,
 {"original":"1870s-1894","start":1870,"end":1894}
 ,
-{"original":"Printed probably in 1890s.","start":1890,"end":1899}
+{"original":"Printed probably in 1890s.","start":1890,"end":1899,"circa":true}
 ,
 {"original":"Original circa 1830's, reproduction 1930's","start":1830,"end":1839,"circa":true}
 ,
-{"original":"Originally 1833, this edition was made probably in the early 20th century.","start":1900,"end":1924}
+{"original":"Originally 1833, this edition was made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Late Edo - Meiji period.","start":1603,"end":1867}
 ,
@@ -1051,11 +1051,11 @@
 ,
 {"original":"Original design 1830's (20th century printing)","start":1900,"end":1999}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made probably in 1920-30s.","start":1920,"end":1939}
+{"original":"Originally in Edo era. This re-carved edition was made probably in 1920-30s.","start":1920,"end":1939,"circa":true}
 ,
 {"original":"Meiji period.","start":1868,"end":1912}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made probably in mid 20th century.","start":1940,"end":1959}
+{"original":"Originally in Edo era. This re-carved edition was made probably in mid 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"April/May 1996.","start":1996,"end":1996}
 ,
@@ -1063,17 +1063,17 @@
 ,
 {"original":"Japanese, Meiji era, 20th century","start":1900,"end":1999}
 ,
-{"original":"Originally in Edo era. This print was made probably in 1930s.","start":1930,"end":1939}
+{"original":"Originally in Edo era. This print was made probably in 1930s.","start":1930,"end":1939,"circa":true}
 ,
 {"original":"Japanese, Meiji era–Taishô era, 20th century","start":1900,"end":1999}
 ,
 {"original":"Printing ca. 1950s.","start":1950,"end":1959,"circa":true}
 ,
-{"original":"Woodblock print made probably in 1890s.","start":1890,"end":1899}
+{"original":"Woodblock print made probably in 1890s.","start":1890,"end":1899,"circa":true}
 ,
 {"original":"Japanese, Modern impression from Edo-period block","start":1603,"end":1867}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made probably in 1900 - 1920.","start":1900,"end":1920}
+{"original":"Originally in Edo era. This re-carved edition was made probably in 1900 - 1920.","start":1900,"end":1920,"circa":true}
 ,
 {"original":"8th month, 1789","start":1789,"end":1789}
 ,
@@ -1115,17 +1115,17 @@
 ,
 {"original":"Original series in ca. 1834. This is re-carved edition in March 1951.","start":1834,"end":1834,"circa":true}
 ,
-{"original":"Original in Edo era. This recut edition was made probably in 1900-1920.","start":1900,"end":1920}
+{"original":"Original in Edo era. This recut edition was made probably in 1900-1920.","start":1900,"end":1920,"circa":true}
 ,
 {"original":"Originally in 1857. This recarved edition was made in Meiji era.","start":1857,"end":1857}
 ,
-{"original":"Original in Edo era. This re-carved edition was made probably in 1900-1920.","start":1900,"end":1920}
+{"original":"Original in Edo era. This re-carved edition was made probably in 1900-1920.","start":1900,"end":1920,"circa":true}
 ,
-{"original":"Originally in Edo period. This edition was printed probably in 1900-1920.","start":1900,"end":1920}
+{"original":"Originally in Edo period. This edition was printed probably in 1900-1920.","start":1900,"end":1920,"circa":true}
 ,
 {"original":"1840 (Tenpo 11)","start":1840,"end":1840}
 ,
-{"original":"Originally published in Edo era, 1857. This edition was published probably in early 20th century.","start":1900,"end":1924}
+{"original":"Originally published in Edo era, 1857. This edition was published probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"This edition was made ca. 1930s.","start":1930,"end":1939,"circa":true}
 ,
@@ -1143,7 +1143,7 @@
 ,
 {"original":"8th month, Snake year 1857","start":1857,"end":1857}
 ,
-{"original":"probably December 1779","start":1779,"end":1779}
+{"original":"probably December 1779","start":1779,"end":1779,"circa":true}
 ,
 {"original":"7th month ox year 1853","start":1853,"end":1853}
 ,
@@ -1221,7 +1221,7 @@
 ,
 {"original":"April 2006 (actual printing date).","start":2006,"end":2006}
 ,
-{"original":"This re-carved edition was made probably in early 20th century.","start":1900,"end":1924}
+{"original":"This re-carved edition was made probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"c. 1930s (this item: Pre-war strike)","start":1930,"end":1939,"circa":true}
 ,
@@ -1255,7 +1255,7 @@
 ,
 {"original":"Originally in 1856-58, this edition was probably made in mid 20th C.","start":1856,"end":1858,"circa":true}
 ,
-{"original":"Originally in 1830s. This re-carved edition was made probably in mid 20th century.","start":1940,"end":1959}
+{"original":"Originally in 1830s. This re-carved edition was made probably in mid 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"Originally in Edo era, this one is re-carved edition in ca. 1950-60s.","start":1950,"end":1969,"circa":true}
 ,
@@ -1265,11 +1265,11 @@
 ,
 {"original":"Originally in 1798, this is a re-carved edition in 1973.","start":1798,"end":1798}
 ,
-{"original":"Originally in Edo era. This miniature version was made probably in early 20th century.","start":1900,"end":1924}
+{"original":"Originally in Edo era. This miniature version was made probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Original paintings in Edo era. This album was printed in Meiji.","start":1603,"end":1867}
 ,
-{"original":"Originally in 1797. This edition was probably in Meiji-Taisho period.","start":1797,"end":1797}
+{"original":"Originally in 1797. This edition was probably in Meiji-Taisho period.","start":1797,"end":1797,"circa":true}
 ,
 {"original":"Original painting in Edo, this print series was made in 1931.","start":1931,"end":1931}
 ,
@@ -1301,7 +1301,7 @@
 ,
 {"original":"ca. early 1740s","start":1740,"end":1749,"circa":true}
 ,
-{"original":"Originally in 1833, this re-carved edition was made probably in the early 20th century.","start":1900,"end":1924}
+{"original":"Originally in 1833, this re-carved edition was made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"ca. 764–70","start":764,"end":770,"circa":true}
 ,
@@ -1319,9 +1319,9 @@
 ,
 {"original":"Sept. 1989","start":1989,"end":1989}
 ,
-{"original":"Originally in Edo era. This edition was made probably in 1890s.","start":1890,"end":1899}
+{"original":"Originally in Edo era. This edition was made probably in 1890s.","start":1890,"end":1899,"circa":true}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made probably in the middle 20th century.","start":1940,"end":1959}
+{"original":"Originally in Edo era. This re-carved edition was made probably in the middle 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"1934, no publisher seal (later printing)","start":1934,"end":1934}
 ,
@@ -1333,13 +1333,13 @@
 ,
 {"original":"Not dated (1960's), posthumous printing","start":1960,"end":1969}
 ,
-{"original":"Originally in 1856-58, this is probably in middle 20th century.","start":1856,"end":1858}
+{"original":"Originally in 1856-58, this is probably in middle 20th century.","start":1856,"end":1858,"circa":true}
 ,
 {"original":"c. 1920 (from newly carved blocks)","start":1920,"end":1920,"circa":true}
 ,
 {"original":"c. 1767/8","start":1767,"end":1768,"circa":true}
 ,
-{"original":"Originally in 1856-58, this recarved edition was made probably in mid 20th century.","start":1856,"end":1858}
+{"original":"Originally in 1856-58, this recarved edition was made probably in mid 20th century.","start":1856,"end":1858,"circa":true}
 ,
 {"original":"Originally in Edo era, this is a re-carved edition in mid 20th century.","start":1940,"end":1959}
 ,
@@ -1351,13 +1351,13 @@
 ,
 {"original":"1830-32 (Meiji Period Reproduction)","start":1830,"end":1832}
 ,
-{"original":"Originally in Edo era, this re-carved edition was published probably in early 20th century.","start":1900,"end":1924}
+{"original":"Originally in Edo era, this re-carved edition was published probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"1780s (?)","start":1780,"end":1789,"circa":true}
 ,
 {"original":"Edo period, c. 1801-02","start":1801,"end":1802,"circa":true}
 ,
-{"original":"Originally in 1856-58, this is probably in mid 20th century.","start":1856,"end":1858}
+{"original":"Originally in 1856-58, this is probably in mid 20th century.","start":1856,"end":1858,"circa":true}
 ,
 {"original":"1790 (preface)","start":1790,"end":1790}
 ,
@@ -1393,7 +1393,7 @@
 ,
 {"original":"1950's (early printing)","start":1950,"end":1959}
 ,
-{"original":"Originally in Edo era. This print is a re-carved edition made probably in the early 20th century.","start":1900,"end":1924}
+{"original":"Originally in Edo era. This print is a re-carved edition made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Ca. 1880/90s.","start":1880,"end":1899,"circa":true}
 ,
@@ -1403,7 +1403,7 @@
 ,
 {"original":"Originally 1896. This re-carved edition was made in unknown date.","start":1896,"end":1896}
 ,
-{"original":"Originally in early Edo era, this one is a re-carved edition probably made in the early 20th century.","start":1900,"end":1924}
+{"original":"Originally in early Edo era, this one is a re-carved edition probably made in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Originally in Edo era, this re-carved edition was made in 20th century.","start":1900,"end":1999}
 ,
@@ -1427,7 +1427,7 @@
 ,
 {"original":"23/50, late 20th Century","start":1975,"end":1999}
 ,
-{"original":"Originally in Edo era. This one is a re-carved edition made probably in the early 20th century.","start":1900,"end":1924}
+{"original":"Originally in Edo era. This one is a re-carved edition made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"[between 1750 and 1810?]","start":1750,"end":1810,"circa":true}
 ,
@@ -1441,13 +1441,13 @@
 ,
 {"original":"August - October 2005.","start":2005,"end":2005}
 ,
-{"original":"Originally in 1920. This reproduction was made probably in mid 20th century.","start":1940,"end":1959}
+{"original":"Originally in 1920. This reproduction was made probably in mid 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"Japan : [Ōkura Magobei], 1881.","start":1881,"end":1881}
 ,
 {"original":"10 October 1889","start":1889,"end":1889}
 ,
-{"original":"Originally in Edo period, this edition was made in probably 1890s.","start":1890,"end":1899}
+{"original":"Originally in Edo period, this edition was made in probably 1890s.","start":1890,"end":1899,"circa":true}
 ,
 {"original":"Japan : Tsujiokaya, [1861].","start":1861,"end":1861}
 ,
@@ -1471,7 +1471,7 @@
 ,
 {"original":"Edo era.","start":1603,"end":1867}
 ,
-{"original":"Original in Edo era. This re-cut edition was made probably in 1900-1920.","start":1900,"end":1920}
+{"original":"Original in Edo era. This re-cut edition was made probably in 1900-1920.","start":1900,"end":1920,"circa":true}
 ,
 {"original":"Originally in Edo period (1603-1867), this is a re-carved edition printed in 1956.","start":1603,"end":1867}
 ,
@@ -1499,15 +1499,15 @@
 ,
 {"original":"Originally ca. 1829-33, this re-carved edition was made in 1924.","start":1829,"end":1833,"circa":true}
 ,
-{"original":"Originally in Edo era, this re-carved edition was made in probably mid 20th century.","start":1940,"end":1959}
+{"original":"Originally in Edo era, this re-carved edition was made in probably mid 20th century.","start":1940,"end":1959,"circa":true}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made probably in the mid 20th century.","start":1940,"end":1959}
+{"original":"Originally in Edo era. This re-carved edition was made probably in the mid 20th century.","start":1940,"end":1959,"circa":true}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made in probably in 1950s.","start":1950,"end":1959}
+{"original":"Originally in Edo era. This re-carved edition was made in probably in 1950s.","start":1950,"end":1959,"circa":true}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made in probably in mid 20th century.","start":1940,"end":1959}
+{"original":"Originally in Edo era. This re-carved edition was made in probably in mid 20th century.","start":1940,"end":1959,"circa":true}
 ,
-{"original":"Original painting in 1810s. This woodblock print version of the painting was made probably in mid 20th century.","start":1940,"end":1959}
+{"original":"Original painting in 1810s. This woodblock print version of the painting was made probably in mid 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"1860 (very early Kunichika work).","start":1860,"end":1860}
 ,
@@ -1521,7 +1521,7 @@
 ,
 {"original":"Originally ca. 1829-33. This re-carved edition was made probably in early 20th century.","start":1829,"end":1833,"circa":true}
 ,
-{"original":"Originally in Edo era. This edition was published probably in early 1890s.","start":1890,"end":1899}
+{"original":"Originally in Edo era. This edition was published probably in early 1890s.","start":1890,"end":1899,"circa":true}
 ,
 {"original":"First of October 1979.","start":1979,"end":1979}
 ,
@@ -1537,11 +1537,11 @@
 ,
 {"original":"May 1930. \"Dai go nen, Go gatsu saku\", handwritten by the artist on the left margin.","start":1930,"end":1930}
 ,
-{"original":"Originally in Edo era. This reproduction was made probably in 1890-1900.","start":1890,"end":1900}
+{"original":"Originally in Edo era. This reproduction was made probably in 1890-1900.","start":1890,"end":1900,"circa":true}
 ,
 {"original":"Album was printed in 1903.","start":1903,"end":1903}
 ,
-{"original":"Re-carved edition, probably made in the mid 20th century.","start":1940,"end":1959}
+{"original":"Re-carved edition, probably made in the mid 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"[between 1800 and 1830 printed between 1890 and 1930]","start":1800,"end":1830}
 ,
@@ -1555,25 +1555,25 @@
 ,
 {"original":"Originally in 1829-33, this one is re-carved edition in ca. 1970-80.","start":1829,"end":1833,"circa":true}
 ,
-{"original":"Originally in 1835-36. This re-carved edition was published probably in early 20th century.","start":1835,"end":1836}
+{"original":"Originally in 1835-36. This re-carved edition was published probably in early 20th century.","start":1835,"end":1836,"circa":true}
 ,
-{"original":"Originally in 1829 - 1833. This re-carved edition was made probably in early 20th century.","start":1829,"end":1833}
+{"original":"Originally in 1829 - 1833. This re-carved edition was made probably in early 20th century.","start":1829,"end":1833,"circa":true}
 ,
-{"original":"Originally in Edo era. This reproduction was made probably in 1890 -1910.","start":1890,"end":1910}
+{"original":"Originally in Edo era. This reproduction was made probably in 1890 -1910.","start":1890,"end":1910,"circa":true}
 ,
 {"original":"Originally in Edo era, this one is re-carved edition in early 20th C.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Originally in Edo era. This re-carved print is from 1927.","start":1927,"end":1927}
 ,
-{"original":"Originally in Early Edo era, this one is a re-carved edition made in probably the early 20th century.","start":1900,"end":1924}
+{"original":"Originally in Early Edo era, this one is a re-carved edition made in probably the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"1855. This re-carved edition was made probably in the middle 20th century.","start":1940,"end":1959}
+{"original":"1855. This re-carved edition was made probably in the middle 20th century.","start":1940,"end":1959,"circa":true}
 ,
-{"original":"Originally in 1925. This one is probably later printing.","start":1925,"end":1925}
+{"original":"Originally in 1925. This one is probably later printing.","start":1925,"end":1925,"circa":true}
 ,
-{"original":"Originally in Edo era. This re-carved edition was probably made in 1950s.","start":1950,"end":1959}
+{"original":"Originally in Edo era. This re-carved edition was probably made in 1950s.","start":1950,"end":1959,"circa":true}
 ,
-{"original":"Originally in Edo era, they were published probably in the early 20th Century.","start":1900,"end":1924}
+{"original":"Originally in Edo era, they were published probably in the early 20th Century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"2003. Sept - Nov .","start":2003,"end":2003}
 ,
@@ -1585,7 +1585,7 @@
 ,
 {"original":"1862 (Bunkyu 2, 6th month)","start":1862,"end":1862}
 ,
-{"original":"Originally in Edo era. This reproduction was made probably around 1920-30s.","start":1920,"end":1939}
+{"original":"Originally in Edo era. This reproduction was made probably around 1920-30s.","start":1920,"end":1939,"circa":true}
 ,
 {"original":"Originally in 1831 - 34.","start":1831,"end":1834}
 ,
@@ -1595,13 +1595,13 @@
 ,
 {"original":"Originally in Edo era. This re-carved edition was published ca. mid 20th C.","start":1940,"end":1959,"circa":true}
 ,
-{"original":"Originally in Edo era, this is a re-carved edition was made probably in the early 20th century.","start":1900,"end":1924}
+{"original":"Originally in Edo era, this is a re-carved edition was made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"Originally around 1840s. This reproduction was made probably in the middle of 20th century.","start":1940,"end":1959}
+{"original":"Originally around 1840s. This reproduction was made probably in the middle of 20th century.","start":1940,"end":1959,"circa":true}
 ,
-{"original":"Originally in 1837-38, this is a re-carved edition was published probably in mid 20th century.","start":1837,"end":1838}
+{"original":"Originally in 1837-38, this is a re-carved edition was published probably in mid 20th century.","start":1837,"end":1838,"circa":true}
 ,
-{"original":"Originally around 1834. This edition was made probably in the mid 20th century.","start":1940,"end":1959}
+{"original":"Originally around 1834. This edition was made probably in the mid 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"(originally published in Edo era. This is a re-carved edition published ca. early 20th C.","start":1900,"end":1924,"circa":true}
 ,
@@ -1611,29 +1611,29 @@
 ,
 {"original":"Originally ca. 1834. This edition was made probably in 1930s.","start":1930,"end":1939,"circa":true}
 ,
-{"original":"Originally published in 1829 - 33. This re-carved edition was published probably in 1930s.","start":1829,"end":1833}
+{"original":"Originally published in 1829 - 33. This re-carved edition was published probably in 1930s.","start":1829,"end":1833,"circa":true}
 ,
-{"original":"1831 - 34. This re-carved edition was made probably in 1845 - 50.","start":1831,"end":1834}
+{"original":"1831 - 34. This re-carved edition was made probably in 1845 - 50.","start":1831,"end":1834,"circa":true}
 ,
-{"original":"This edition was made probably in 1900 - 1920s.","start":1900,"end":1929}
+{"original":"This edition was made probably in 1900 - 1920s.","start":1900,"end":1929,"circa":true}
 ,
 {"original":"9th–10th century","start":900,"end":999}
 ,
 {"original":"Originally published in 1857, this re-carved edition in the early 20th C.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"Originally in Edo era. This one is a re-carved edition probably made in 1930s.","start":1930,"end":1939}
+{"original":"Originally in Edo era. This one is a re-carved edition probably made in 1930s.","start":1930,"end":1939,"circa":true}
 ,
 {"original":"1930 ... Printing before W.W.II.","start":1930,"end":1930}
 ,
-{"original":"Originally 1832-33, this re-carved edition was made probably in 1950s.","start":1832,"end":1833}
+{"original":"Originally 1832-33, this re-carved edition was made probably in 1950s.","start":1832,"end":1833,"circa":true}
 ,
 {"original":"1857. This recarved edition was made probaby in 1950s.","start":1950,"end":1959}
 ,
 {"original":"Originally ca. 1829-33. This re-carved edition was made probably in the mid 20th century.","start":1829,"end":1833,"circa":true}
 ,
-{"original":"This reproduction was made probably in 1950s.","start":1950,"end":1959}
+{"original":"This reproduction was made probably in 1950s.","start":1950,"end":1959,"circa":true}
 ,
-{"original":"Originally in Edo era, this is a re-carved edition was made probably in 1950s.","start":1950,"end":1959}
+{"original":"Originally in Edo era, this is a re-carved edition was made probably in 1950s.","start":1950,"end":1959,"circa":true}
 ,
 {"original":"Original published in Edo era, this edition was made in Meiji era.","start":1603,"end":1867}
 ,
@@ -1643,9 +1643,9 @@
 ,
 {"original":"Originally in Edo era, this re-carved edition made in ca. early 20th C.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"Originally in 1857. This edition was made probably in the early 20th century.","start":1900,"end":1924}
+{"original":"Originally in 1857. This edition was made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"Originally in 1856-58, this is made probably in 1950 - 60s.","start":1950,"end":1969}
+{"original":"Originally in 1856-58, this is made probably in 1950 - 60s.","start":1950,"end":1969,"circa":true}
 ,
 {"original":"Originally in Edo era. This woodblock version was made in 1925.","start":1925,"end":1925}
 ,
@@ -1653,7 +1653,7 @@
 ,
 {"original":"Originally in early Edo era, this edition was made probably in early 20th C.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"probably 1878 edition","start":1878,"end":1878}
+{"original":"probably 1878 edition","start":1878,"end":1878,"circa":true}
 ,
 {"original":"Originally ca. 1794-95, this one was re-carved probably in mid 20th C.","start":1794,"end":1795,"circa":true}
 ,
@@ -1679,7 +1679,7 @@
 ,
 {"original":"1939 (28th year of the Republic)","start":1939,"end":1939}
 ,
-{"original":"Original painting by Korin in Edo period. This print was made probably in Meiji period (1868 - 1912).","start":1868,"end":1912}
+{"original":"Original painting by Korin in Edo period. This print was made probably in Meiji period (1868 - 1912).","start":1868,"end":1912,"circa":true}
 ,
 {"original":"1896 - 97 ?","start":1896,"end":1897,"circa":true}
 ,
@@ -1727,15 +1727,15 @@
 ,
 {"original":"1822 (second month)","start":1822,"end":1822}
 ,
-{"original":"Originally in 1829-33. This re-carved edition was made probably in 1960s.","start":1829,"end":1833}
+{"original":"Originally in 1829-33. This re-carved edition was made probably in 1960s.","start":1829,"end":1833,"circa":true}
 ,
 {"original":"1821 (ninth month, about)","start":1821,"end":1821}
 ,
-{"original":"Originally in Edo era. This edition was made probably in the unknown date.","start":1603,"end":1867}
+{"original":"Originally in Edo era. This edition was made probably in the unknown date.","start":1603,"end":1867,"circa":true}
 ,
 {"original":"13 November 1886","start":1886,"end":1886}
 ,
-{"original":"Originally in 1856-58, this edition was made probably in early 20th C.","start":1856,"end":1858,"circa":true}
+{"original":"Originally in 1856-58, this edition was made probably in early 20th C.","start":1856,"end":1858,"circa":true,"circa":true}
 ,
 {"original":"1934, March (handwritten by the artist).","start":1934,"end":1934}
 ,
@@ -1775,7 +1775,7 @@
 ,
 {"original":"1880s (original)","start":1880,"end":1889}
 ,
-{"original":"This edition was made probably in 1900-1920.","start":1900,"end":1920}
+{"original":"This edition was made probably in 1900-1920.","start":1900,"end":1920,"circa":true}
 ,
 {"original":"P 1957","start":1957,"end":1957}
 ,
@@ -1827,7 +1827,7 @@
 ,
 {"original":"Originally in Edo era, this one was re-carved edition made in unknown date.","start":1603,"end":1867}
 ,
-{"original":"Probably in late Meiji period.","start":1868,"end":1912}
+{"original":"Probably in late Meiji period.","start":1868,"end":1912,"circa":true}
 ,
 {"original":"Originally in 1829-33, this one is re-carved edition in the mid 20th C.","start":1829,"end":1833,"circa":true}
 ,
@@ -1899,7 +1899,7 @@
 ,
 {"original":"19thC(mid) (circa)","start":1800,"end":1899,"circa":true}
 ,
-{"original":"Originally in Edo era, this re-carved edition was made probably in Taisho era.","start":1603,"end":1867}
+{"original":"Originally in Edo era, this re-carved edition was made probably in Taisho era.","start":1603,"end":1867,"circa":true}
 ,
 {"original":"c. 1769/1770","start":1769,"end":1770,"circa":true}
 ,
@@ -1955,11 +1955,11 @@
 ,
 {"original":"1849 (Kaei 2)","start":1849,"end":1849}
 ,
-{"original":"This edition was made probably in 1950s.","start":1950,"end":1959}
+{"original":"This edition was made probably in 1950s.","start":1950,"end":1959,"circa":true}
 ,
 {"original":"1 August 1904","start":1904,"end":1904}
 ,
-{"original":"Original surimono in Edo era. This was probably later printing in Edo-Meiji era.","start":1603,"end":1867}
+{"original":"Original surimono in Edo era. This was probably later printing in Edo-Meiji era.","start":1603,"end":1867,"circa":true}
 ,
 {"original":"18 Mar 1878","start":1878,"end":1878}
 ,
@@ -2049,17 +2049,17 @@
 ,
 {"original":"Originally in Edo era, this re-carved edition was made early 20th Century.","start":1900,"end":1924}
 ,
-{"original":"Originally in early Edo era, this one is re-carved edition probably in early 20th Century.","start":1900,"end":1924}
+{"original":"Originally in early Edo era, this one is re-carved edition probably in early 20th Century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Twelfth month of 1857 (series published 1856-1858)","start":1856,"end":1858}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made probably in middle 20th century.","start":1940,"end":1959}
+{"original":"Originally in Edo era. This re-carved edition was made probably in middle 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"Originally in Edo era, this one was published in early 20th Century before Kanto Earthquake.","start":1900,"end":1924}
 ,
-{"original":"Originally in Edo era, this re-carved edition was made probably in11950s.","start":1950,"end":1959}
+{"original":"Originally in Edo era, this re-carved edition was made probably in11950s.","start":1950,"end":1959,"circa":true}
 ,
-{"original":"Original in Edo era. These re-carved editions were published probably in early 20th Century.","start":1900,"end":1924}
+{"original":"Original in Edo era. These re-carved editions were published probably in early 20th Century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"fall 1860","start":1860,"end":1860}
 ,
@@ -2099,7 +2099,7 @@
 ,
 {"original":"1600 s c. early","start":1600,"end":1609,"circa":true}
 ,
-{"original":"Originally in 1856-58, this is probably made in 1910-15.","start":1856,"end":1858}
+{"original":"Originally in 1856-58, this is probably made in 1910-15.","start":1856,"end":1858,"circa":true}
 ,
 {"original":"1300 s- 1400 s c. late","start":1300,"end":1409,"circa":true}
 ,
@@ -2113,7 +2113,7 @@
 ,
 {"original":"Originally in Edo era. This edition ca. 1930s.","start":1930,"end":1939,"circa":true}
 ,
-{"original":"Originally in Edo era. This edition was made probably in early 20th Century.","start":1900,"end":1924}
+{"original":"Originally in Edo era. This edition was made probably in early 20th Century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"mid-late of 1800s","start":1800,"end":1809}
 ,
@@ -2167,7 +2167,7 @@
 ,
 {"original":"1933 (posthoumous printing)","start":1933,"end":1933}
 ,
-{"original":"Date of this Woodblock print was probably in 1970s.","start":1970,"end":1979}
+{"original":"Date of this Woodblock print was probably in 1970s.","start":1970,"end":1979,"circa":true}
 ,
 {"original":"1955 (posthumous)","start":1955,"end":1955}
 ,
@@ -2177,7 +2177,7 @@
 ,
 {"original":"mid 20th century reproduction","start":1940,"end":1959}
 ,
-{"original":"Originally in 1869. This edition was printed probably in early 20th century.","start":1900,"end":1924}
+{"original":"Originally in 1869. This edition was printed probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Series published in 1938-43.","start":1938,"end":1943}
 ,
@@ -2195,7 +2195,7 @@
 ,
 {"original":"Originally ca. 1829-33, this one was made in unknown date.","start":1829,"end":1833,"circa":true}
 ,
-{"original":"Originally in Edo period. This re-carved edition was made probably in the middle 20th century.","start":1940,"end":1959}
+{"original":"Originally in Edo period. This re-carved edition was made probably in the middle 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"Original series in 1938 - 1943.","start":1938,"end":1943}
 ,
@@ -2225,7 +2225,7 @@
 ,
 {"original":"Japan : [Notayuki?, between 1850 and 1900]","start":1850,"end":1900,"circa":true}
 ,
-{"original":"Originally in 1925. This one probably later printing.","start":1925,"end":1925}
+{"original":"Originally in 1925. This one probably later printing.","start":1925,"end":1925,"circa":true}
 ,
 {"original":"Japan : [Nogawa Tsunekichi], 1885.","start":1885,"end":1885}
 ,
@@ -2295,7 +2295,7 @@
 ,
 {"original":"Japan : [Daikokuya Heikichi], 1861.","start":1861,"end":1861}
 ,
-{"original":"Originally in early Edo era, this one was made probably in the early 20th Century.","start":1900,"end":1924}
+{"original":"Originally in early Edo era, this one was made probably in the early 20th Century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Japan : Daihei (Daikokuya Heikichi), 1861.","start":1861,"end":1861}
 ,
@@ -2325,7 +2325,7 @@
 ,
 {"original":"1897, Dec.10.","start":1897,"end":1897,"circa":true}
 ,
-{"original":"Originally published in 1833/1834. This recarved edition published probably from before world war II.","start":1833,"end":1834}
+{"original":"Originally published in 1833/1834. This recarved edition published probably from before world war II.","start":1833,"end":1834,"circa":true}
 ,
 {"original":"Japan : [Kujikei], [1864?]","start":1864,"end":1864,"circa":true}
 ,
@@ -2349,7 +2349,7 @@
 ,
 {"original":"Japan : [Yamadaya Shōbei], 1860.","start":1860,"end":1860}
 ,
-{"original":"Originally in 1801-03, this re-carved edition was made probably in early 20th century.","start":1801,"end":1803}
+{"original":"Originally in 1801-03, this re-carved edition was made probably in early 20th century.","start":1801,"end":1803,"circa":true}
 ,
 {"original":"Japan : Yamajin (Yamadaya Shōbei or Shōjirō), 1861.","start":1861,"end":1861}
 ,
@@ -2389,7 +2389,7 @@
 ,
 {"original":"[between 1880-1900]","start":1880,"end":1900}
 ,
-{"original":"Originally in 1837-38, this is a re-carved edition made probably in early 20th century.","start":1837,"end":1838}
+{"original":"Originally in 1837-38, this is a re-carved edition made probably in early 20th century.","start":1837,"end":1838,"circa":true}
 ,
 {"original":"Original published in 1857, this edition published in Meiji era by Uoei.","start":1857,"end":1857}
 ,
@@ -2447,7 +2447,7 @@
 ,
 {"original":"1877 (Meiji 10, 7th month, 5th day)","start":1877,"end":1877}
 ,
-{"original":"Originally in Edo era. This reproduction was made probably in the early 20th century.","start":1900,"end":1924}
+{"original":"Originally in Edo era. This reproduction was made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"1898 (31 Meiji)","start":1898,"end":1898}
 ,
@@ -2473,7 +2473,7 @@
 ,
 {"original":"1870 (Meiji 3, 10th month)","start":1870,"end":1870}
 ,
-{"original":"Originally in 1920. This reproduction was made probably in the mid 20th century.","start":1940,"end":1959}
+{"original":"Originally in 1920. This reproduction was made probably in the mid 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"1868 (year of the Dragon, 4th month)","start":1868,"end":1868}
 ,
@@ -2489,11 +2489,11 @@
 ,
 {"original":"1877? (ink stain renders date partly illegible)","start":1877,"end":1877,"circa":true}
 ,
-{"original":"probably 1850–62","start":1850,"end":1862}
+{"original":"probably 1850–62","start":1850,"end":1862,"circa":true}
 ,
 {"original":"1861 (Bunkyu 1, 1st month)","start":1861,"end":1861}
 ,
-{"original":"probably late 19th century","start":1875,"end":1899}
+{"original":"probably late 19th century","start":1875,"end":1899,"circa":true}
 ,
 {"original":"dated March 1896","start":1896,"end":1896}
 ,
@@ -2501,7 +2501,7 @@
 ,
 {"original":"1796 (Kansei, 6th year)","start":1796,"end":1796}
 ,
-{"original":"probably 19th century","start":1800,"end":1899}
+{"original":"probably 19th century","start":1800,"end":1899,"circa":true}
 ,
 {"original":"(1) 1980, (2) 1977, (3) ca. 1970s.","start":1970,"end":1979,"circa":true}
 ,
@@ -2511,7 +2511,7 @@
 ,
 {"original":"ca. 1772 (?)","start":1772,"end":1772,"circa":true}
 ,
-{"original":"probably January 1749","start":1749,"end":1749}
+{"original":"probably January 1749","start":1749,"end":1749,"circa":true}
 ,
 {"original":"1815 (first two volumes) and–1826 (two sequel volumes)","start":1815,"end":1815}
 ,
@@ -2523,7 +2523,7 @@
 ,
 {"original":"dated 11th month, Ox year, 1853","start":1853,"end":1853}
 ,
-{"original":"Originally in Edo era. This re-carved edition was published probably in the early 20th century.","start":1900,"end":1924}
+{"original":"Originally in Edo era. This re-carved edition was published probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"dated 4th month, Horse year 1858","start":1858,"end":1858}
 ,
@@ -2559,7 +2559,7 @@
 ,
 {"original":"Ca. late 1740s - 1750s.","start":1740,"end":1759,"circa":true}
 ,
-{"original":"Originally in Edo era. This edition was made probably in the middle 20th century.","start":1940,"end":1959}
+{"original":"Originally in Edo era. This edition was made probably in the middle 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"7th month tiger year 1854","start":1854,"end":1854}
 ,
@@ -2585,7 +2585,7 @@
 ,
 {"original":"1862 (Dog Year)","start":1862,"end":1862}
 ,
-{"original":"Year of the Dragon, probably 1832","start":1832,"end":1832}
+{"original":"Year of the Dragon, probably 1832","start":1832,"end":1832,"circa":true}
 ,
 {"original":"Originally ca. 1834, this is a re-carved edition in unknown date.","start":1834,"end":1834,"circa":true}
 ,
@@ -2603,7 +2603,7 @@
 ,
 {"original":"The series of 25 volumes which was published during 1890-94. This one was published in 1891.","start":1890,"end":1894}
 ,
-{"original":"Originally in 1856-58, this was made probably in mid 20th century.","start":1856,"end":1858}
+{"original":"Originally in 1856-58, this was made probably in mid 20th century.","start":1856,"end":1858,"circa":true}
 ,
 {"original":"This one was printed in 1830s.","start":1830,"end":1839}
 ,
@@ -2611,7 +2611,7 @@
 ,
 {"original":"Japanese, Modern (Meiji era?)","start":1868,"end":1912,"circa":true}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made probably in 1890 - 1900s.","start":1890,"end":1909}
+{"original":"Originally in Edo era. This re-carved edition was made probably in 1890 - 1900s.","start":1890,"end":1909,"circa":true}
 ,
 {"original":"Ca. 1930c.","start":1930,"end":1930,"circa":true}
 ,
@@ -2627,13 +2627,13 @@
 ,
 {"original":"Originally in Edo, this re-carved edition was published in late 20th century.","start":1975,"end":1999}
 ,
-{"original":"Re-carved or \"made after\" design in probably 1930s.","start":1930,"end":1939}
+{"original":"Re-carved or \"made after\" design in probably 1930s.","start":1930,"end":1939,"circa":true}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made probably in early 20th centuly.","start":1900,"end":1924}
+{"original":"Originally in Edo era. This re-carved edition was made probably in early 20th centuly.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Originally in ca. 1832, this one is a re-carved edition probably made in early 20th C.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"Originally published in Edo era. This is a re-carved edition, published probably in early 20th century.","start":1900,"end":1924}
+{"original":"Originally published in Edo era. This is a re-carved edition, published probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"late 17th century-early 18th century","start":1675,"end":1724}
 ,
@@ -2647,25 +2647,25 @@
 ,
 {"original":"Autumn 1767","start":1767,"end":1767}
 ,
-{"original":"Woodblock print edition made probably around 1930s.","start":1930,"end":1939}
+{"original":"Woodblock print edition made probably around 1930s.","start":1930,"end":1939,"circa":true}
 ,
 {"original":"befire 1912","start":1912,"end":1912}
 ,
 {"original":"Originally ca. 1834-42. This is a re-carved edition made probably in early 20th century.","start":1834,"end":1842,"circa":true}
 ,
-{"original":"Originally in 1856-58, this was made probably in early 20th century.","start":1856,"end":1858}
+{"original":"Originally in 1856-58, this was made probably in early 20th century.","start":1856,"end":1858,"circa":true}
 ,
-{"original":"Originally in 1834-42, this edition was probably made in the early 20th century.","start":1834,"end":1842}
+{"original":"Originally in 1834-42, this edition was probably made in the early 20th century.","start":1834,"end":1842,"circa":true}
 ,
-{"original":"Originally in Edo era, this edition was probably made in the early 20th century.","start":1900,"end":1924}
+{"original":"Originally in Edo era, this edition was probably made in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Dated 1967 on the plate, 1979 on the lower margin.","start":1967,"end":1967}
 ,
-{"original":"Originally in Edo era, this re-carved version was made probably in the early 20th century.","start":1900,"end":1924}
+{"original":"Originally in Edo era, this re-carved version was made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Originally in ca. 1835, this re-carved edition was made probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"The miniature version made probably in early 20th century.","start":1900,"end":1924}
+{"original":"The miniature version made probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Originally ca. 1834-5, this is a re-carved edition in ca. 1920-30s.","start":1920,"end":1939,"circa":true}
 ,
@@ -2711,15 +2711,15 @@
 ,
 {"original":"Originally ca. 1690s. This woodblock print was made probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"Originally in early Edo era. This woodblock print was made probably in early 20th century.","start":1900,"end":1924}
+{"original":"Originally in early Edo era. This woodblock print was made probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Originally 1832-33, this re-carved edition was made in 1919.","start":1832,"end":1833}
 ,
-{"original":"Originally in 1920. This re-carved edition was made probably in 1950s.","start":1950,"end":1959}
+{"original":"Originally in 1920. This re-carved edition was made probably in 1950s.","start":1950,"end":1959,"circa":true}
 ,
-{"original":"Originally in 1857, this one is re-carved edition probably in early 20th century.","start":1900,"end":1924}
+{"original":"Originally in 1857, this one is re-carved edition probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"Originally 1900, this re-carved edition was made probably in 1980s.","start":1980,"end":1989}
+{"original":"Originally 1900, this re-carved edition was made probably in 1980s.","start":1980,"end":1989,"circa":true}
 ,
 {"original":"1847 -48.","start":1847,"end":1848}
 ,
@@ -2733,11 +2733,11 @@
 ,
 {"original":"1886 June 1.","start":1886,"end":1886}
 ,
-{"original":"Probably early 20th century.","start":1900,"end":1924}
+{"original":"Probably early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"This woodblock print was made from an ancient scroll painting around 1910-20s.","start":1910,"end":1929}
 ,
-{"original":"Originally in Edo era. This album edition was made probably in Meiji era.","start":1603,"end":1867}
+{"original":"Originally in Edo era. This album edition was made probably in Meiji era.","start":1603,"end":1867,"circa":true}
 ,
 {"original":"August 2006 (actual printing date).","start":2006,"end":2006}
 ,
@@ -2755,17 +2755,17 @@
 ,
 {"original":"1893 September 1st.","start":1893,"end":1893}
 ,
-{"original":"Probably in Taisho era (1912-25).","start":1912,"end":1925}
+{"original":"Probably in Taisho era (1912-25).","start":1912,"end":1925,"circa":true}
 ,
 {"original":"1933 (later printing ?)","start":1933,"end":1933,"circa":true}
 ,
-{"original":"This woodblock print was made probably in the early 20th century.","start":1900,"end":1924}
+{"original":"This woodblock print was made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"This woodblock design was made probably in the early 20th century.","start":1900,"end":1924}
+{"original":"This woodblock design was made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Originally in Edo era, this edition was probably made in mid 20th C.","start":1940,"end":1959,"circa":true}
 ,
-{"original":"Originally in 1798, this is a re-carved edition probably in 1950s.","start":1950,"end":1959}
+{"original":"Originally in 1798, this is a re-carved edition probably in 1950s.","start":1950,"end":1959,"circa":true}
 ,
 {"original":"Series made during 1977-86.","start":1977,"end":1986}
 ,
@@ -2801,7 +2801,7 @@
 ,
 {"original":"Originally in 1885. This recarved edition was made in the early 20th century.","start":1900,"end":1924}
 ,
-{"original":"Originally published in 1833/1834. This edition was published probably in the early 20th century.","start":1833,"end":1834}
+{"original":"Originally published in 1833/1834. This edition was published probably in the early 20th century.","start":1833,"end":1834,"circa":true}
 ,
 {"original":"Original 18th century (reproduction)","start":1700,"end":1799}
 ,
@@ -2811,21 +2811,21 @@
 ,
 {"original":"Originally in Edo era. This re-carved edition was made in ca. 1920s.","start":1920,"end":1929,"circa":true}
 ,
-{"original":"This edition was made probably in 1920-30s.","start":1920,"end":1939}
+{"original":"This edition was made probably in 1920-30s.","start":1920,"end":1939,"circa":true}
 ,
 {"original":"Originally in ca. 1800s. This re-carved edition was made probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Originally in ca. 1790-1800. This re-carved edition was made probably in the early 20th century.","start":1790,"end":1800,"circa":true}
 ,
-{"original":"Originally published in 1833/1834. This edition was published probably in early 20th century.","start":1833,"end":1834}
+{"original":"Originally published in 1833/1834. This edition was published probably in early 20th century.","start":1833,"end":1834,"circa":true}
 ,
-{"original":"Originally published in Edo era. This edition was published probably in early 20th century.","start":1900,"end":1924}
+{"original":"Originally published in Edo era. This edition was published probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Posthumous printing (1930's)","start":1930,"end":1939}
 ,
 {"original":"Originally in Edo era, this re-carved edition was printed in unknown date.","start":1603,"end":1867}
 ,
-{"original":"Originally published in Edo era. This re-carved edition was published probably in early 20th century.","start":1900,"end":1924}
+{"original":"Originally published in Edo era. This re-carved edition was published probably in early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"1879, May 20.","start":1879,"end":1879}
 ,
@@ -2833,7 +2833,7 @@
 ,
 {"original":"Originally in 1856-58, this is probably in early 20th C.","start":1856,"end":1858,"circa":true}
 ,
-{"original":"Probably in Edo period.","start":1603,"end":1867}
+{"original":"Probably in Edo period.","start":1603,"end":1867,"circa":true}
 ,
 {"original":"E.A. 7/10, 1980","start":1980,"end":1980}
 ,
@@ -2841,7 +2841,7 @@
 ,
 {"original":"Originally in 1840-42, this re-carved edition was printed in unknown date but not recent.","start":1840,"end":1842}
 ,
-{"original":"1933 (probably post-1945 printing)","start":1933,"end":1933}
+{"original":"1933 (probably post-1945 printing)","start":1933,"end":1933,"circa":true}
 ,
 {"original":"1934, September (handwritten by the artist).","start":1934,"end":1934}
 ,
@@ -2849,7 +2849,7 @@
 ,
 {"original":"Originally published in 1849-53. This is a later edition in 1874.","start":1849,"end":1853}
 ,
-{"original":"Original painting in Edo era. This re-cut woodblock print edition was made probably in 1900-1920.","start":1900,"end":1920}
+{"original":"Original painting in Edo era. This re-cut woodblock print edition was made probably in 1900-1920.","start":1900,"end":1920,"circa":true}
 ,
 {"original":"寛政6年(1794)","start":1794,"end":1794}
 ,
@@ -2881,9 +2881,9 @@
 ,
 {"original":"(1)1909. (2) Ca. 1900-10s.","start":1900,"end":1919,"circa":true}
 ,
-{"original":"Original paintings were done in Edo era. This woodblock version was made probably in Meiji period.","start":1603,"end":1867}
+{"original":"Original paintings were done in Edo era. This woodblock version was made probably in Meiji period.","start":1603,"end":1867,"circa":true}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made probably in the middle of 20th century.","start":1940,"end":1959}
+{"original":"Originally in Edo era. This re-carved edition was made probably in the middle of 20th century.","start":1940,"end":1959,"circa":true}
 ,
 {"original":"The original print was made in Edo era. This re-carved edition was made in early 20th century.","start":1900,"end":1924}
 ,
@@ -2909,7 +2909,7 @@
 ,
 {"original":"1889-92 (later reproduction)","start":1889,"end":1892}
 ,
-{"original":"Original published in 1857. This a re-carved edition that was published probably in the early 20th century.","start":1900,"end":1924}
+{"original":"Original published in 1857. This a re-carved edition that was published probably in the early 20th century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Not dated (1930')","start":1930,"end":1930}
 ,
@@ -2999,7 +2999,7 @@
 ,
 {"original":"160/175, not dated (1974)","start":1974,"end":1974}
 ,
-{"original":"Not dated, probably 19th century","start":1800,"end":1899}
+{"original":"Not dated, probably 19th century","start":1800,"end":1899,"circa":true}
 ,
 {"original":"Originally in ca. 1832, this one is a re-carved edition probably made in unknown date.","start":1832,"end":1832,"circa":true}
 ,
@@ -3063,9 +3063,9 @@
 ,
 {"original":"Japanese, Meiji-era edition of Edo-period design","start":1868,"end":1912}
 ,
-{"original":"Originally in Edo period. This one was a re-carved edition made probably in 1930s.","start":1930,"end":1939}
+{"original":"Originally in Edo period. This one was a re-carved edition made probably in 1930s.","start":1930,"end":1939,"circa":true}
 ,
-{"original":"Originally in Edo era. This re-carved edition was made probably around 1930s.","start":1930,"end":1939}
+{"original":"Originally in Edo era. This re-carved edition was made probably around 1930s.","start":1930,"end":1939,"circa":true}
 ,
 {"original":"1857, this one is published ca. early Meiji period.","start":1857,"end":1857,"circa":true}
 ,
@@ -3079,7 +3079,7 @@
 ,
 {"original":"Japanese, Meiji era, 19th–early 20th century","start":1800,"end":1924}
 ,
-{"original":"Originally in Edo era, this re-carved edition was printed probably in early 20th Century.","start":1900,"end":1924}
+{"original":"Originally in Edo era, this re-carved edition was printed probably in early 20th Century.","start":1900,"end":1924,"circa":true}
 ,
 {"original":"Japanese, Edo period, 17th–18th century","start":1600,"end":1799}
 ,
@@ -3129,7 +3129,7 @@
 ,
 {"original":"End 15th century.","start":1475,"end":1499}
 ,
-{"original":"Probably 1530s.","start":1530,"end":1539}
+{"original":"Probably 1530s.","start":1530,"end":1539,"circa":true}
 ,
 {"original":"First quarter 13th century.","start":1200,"end":1224}
 ,
@@ -3261,9 +3261,9 @@
 ,
 {"original":"Head-board 1336, foot-board 1337.","start":1336,"end":1336}
 ,
-{"original":"Probably before 1425.","start":1425,"end":1425}
+{"original":"Probably before 1425.","start":1425,"end":1425,"circa":true}
 ,
-{"original":"After 1580, probably 1584.","start":1580,"end":1580}
+{"original":"After 1580, probably 1584.","start":1580,"end":1580,"circa":true}
 ,
 {"original":"Second decade 15th century.","start":1400,"end":1499}
 ,
@@ -3283,7 +3283,7 @@
 ,
 {"original":"late 15th to early16th century.","start":1475,"end":1524}
 ,
-{"original":"probably 1525-1530.","start":1525,"end":1530}
+{"original":"probably 1525-1530.","start":1525,"end":1530,"circa":true}
 ,
 {"original":"mid 1500s.","start":1500,"end":1509}
 ,

@@ -91,6 +91,10 @@ module.exports = {
         "start": {
             start: 0,
             end: -75
+        },
+        "beginning": {
+            start: 0,
+            end: -75
         }
     },
 

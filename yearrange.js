@@ -340,7 +340,7 @@ module.exports = {
         }
 
         var centuryOffset = "(" + Object.keys(this.centuryOffset).join("|") +
-            ")(?:\\s*|\\s*-\\s*)";
+            ")(?:\\s*|\\s*-\\s*|\\s*of\\s*)";
 
         for (var i = 0; i < this.dateRules.length; i++) {
             var rule = this.dateRules[i];

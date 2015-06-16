@@ -111,23 +111,23 @@ module.exports = {
     },
 
     dateRules: [
-        [/(\d{3,4})s?[-\/~](\d{3,4})s/, function(match, date) {
+        [/(\d{3,4})s?\s*[-\/~]\s*(\d{3,4})s/, function(match, date) {
             date.start = match[1];
             date.end = match[2].substr(0, 3) + "9";
         }],
-        [/(\d{4})s?[-\/](\d{4})(?:\D|$)/, function(match, date) {
+        [/(\d{4})s?\s*[-\/]\s*(\d{4})(?:\D|$)/, function(match, date) {
             date.start = match[1];
             date.end = match[2];
         }],
-        [/(\d{3,4})s?[-](\d{3,4})(?:\D|$)/, function(match, date) {
+        [/(\d{3,4})s?\s*[-]\s*(\d{3,4})(?:\D|$)/, function(match, date) {
             date.start = match[1];
             date.end = match[2];
         }],
-        [/(\d{3,4})s?[-\/]\s*(present)/, function(match, date) {
+        [/(\d{3,4})s?[-\/]\s*present/, function(match, date) {
             date.start = match[1];
             date.end = (new Date).getYear() + 1900;
         }],
-        [/(\d{3,4}) (?:and|or|to|through) (\d{3,4})/, function(match, date) {
+        [/(\d{3,4})\s*(?:and|or|to|through)\s*(?:c\S*)?\s*(\d{3,4})/, function(match, date) {
             date.start = match[1];
             date.end = match[2];
         }],

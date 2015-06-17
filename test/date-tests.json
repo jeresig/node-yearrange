@@ -1001,7 +1001,7 @@
 ,
 {"original":"3/7, 1985","start":1985,"end":1985}
 ,
-{"original":"Not dated (early 1900's)","start":1900,"end":1909}
+{"original":"Not dated (early 1900's)","start":1900,"end":1924}
 ,
 {"original":"c. late 1750s","start":1750,"end":1759,"circa":true}
 ,
@@ -1235,7 +1235,7 @@
 ,
 {"original":"Fifth month of 1857 (series published 1856-1858)","start":1856,"end":1858}
 ,
-{"original":"Ca. mid 1700s.","start":1700,"end":1709,"circa":true}
+{"original":"Ca. mid 1700s.","start":1740,"end":1759,"circa":true}
 ,
 {"original":"Eigth month of 1857 (series published 1856-1858)","start":1856,"end":1858}
 ,
@@ -1293,7 +1293,7 @@
 ,
 {"original":"Mid-late 20th C.","start":1975,"end":1999,"circa":true}
 ,
-{"original":"1500 s c.","start":1500,"end":1509,"circa":true}
+{"original":"1500 s c.","start":1500,"end":1599,"circa":true}
 ,
 {"original":"1300 s - 1400 s c.","start":1300,"end":1409,"circa":true}
 ,
@@ -1761,7 +1761,7 @@
 ,
 {"original":"1590-1640 (if Chinese)","start":1590,"end":1640}
 ,
-{"original":"Originally published in Edo era. Re-carved edition made on ca. 1900s.","start":1900,"end":1909,"circa":true}
+{"original":"Originally published in Edo era. Re-carved edition made on ca. 1900s.","start":1900,"end":1999,"circa":true}
 ,
 {"original":"17thC-18thC (1747)","start":1600,"end":1699,"circa":true}
 ,
@@ -1861,7 +1861,7 @@
 ,
 {"original":"7 May 1893","start":1893,"end":1893}
 ,
-{"original":"Originally in Edo era, this is a re-carved edition made in ca. 1900s.","start":1900,"end":1909,"circa":true}
+{"original":"Originally in Edo era, this is a re-carved edition made in ca. 1900s.","start":1900,"end":1999,"circa":true}
 ,
 {"original":"Pre-1923.","start":1923,"end":1923}
 ,
@@ -2097,7 +2097,7 @@
 ,
 {"original":"Edo period, late 1830s","start":1830,"end":1839}
 ,
-{"original":"1600 s c. early","start":1600,"end":1609,"circa":true}
+{"original":"1600 s c. early","start":1600,"end":1699,"circa":true}
 ,
 {"original":"Originally in 1856-58, this is probably made in 1910-15.","start":1856,"end":1858,"circa":true}
 ,
@@ -2115,7 +2115,7 @@
 ,
 {"original":"Originally in Edo era. This edition was made probably in early 20th Century.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"mid-late of 1800s","start":1800,"end":1809}
+{"original":"mid-late of 1800s","start":1875,"end":1899}
 ,
 {"original":"c. 18011","start":1801,"end":1801,"circa":true}
 ,
@@ -2685,7 +2685,7 @@
 ,
 {"original":"ca. 1960 (this item: First edition)","start":1960,"end":1960,"circa":true}
 ,
-{"original":"Early 1800s (this item: Posthumous strike)","start":1800,"end":1809}
+{"original":"Early 1800s (this item: Posthumous strike)","start":1800,"end":1824}
 ,
 {"original":"1815 - 1825 (Kiwame II seal).","start":1815,"end":1825}
 ,
@@ -2703,7 +2703,7 @@
 ,
 {"original":"Sheet 1; 1964. Sheet 2 and 3; ca. 1930s.","start":1930,"end":1939,"circa":true}
 ,
-{"original":"c. early 1800s (this item: Taisho-era strike)","start":1800,"end":1809,"circa":true}
+{"original":"c. early 1800s (this item: Taisho-era strike)","start":1800,"end":1824,"circa":true}
 ,
 {"original":"Ca. later Edo era.","start":1603,"end":1867,"circa":true}
 ,
@@ -3219,7 +3219,7 @@
 ,
 {"original":"1793 in Naples.","start":1793,"end":1793}
 ,
-{"original":"Early 1600s.","start":1600,"end":1609}
+{"original":"Early 1600s.","start":1600,"end":1624}
 ,
 {"original":"last quarter 15th century.","start":1475,"end":1499}
 ,
@@ -3285,7 +3285,7 @@
 ,
 {"original":"probably 1525-1530.","start":1525,"end":1530,"circa":true}
 ,
-{"original":"mid 1500s.","start":1500,"end":1509}
+{"original":"mid 1500s.","start":1540,"end":1559}
 ,
 {"original":"circa 1760.","start":1760,"end":1760,"circa":true}
 ,

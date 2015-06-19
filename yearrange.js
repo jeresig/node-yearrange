@@ -114,6 +114,25 @@ module.exports = {
         }
     },
 
+    decadeOffset: {
+        "late": {
+            start: 7,
+            end: 0
+        },
+        "mid-late": {
+            start: 4,
+            end: 0
+        },
+        "mid": {
+            start: 4,
+            end: -3
+        },
+        "early": {
+            start: 0,
+            end: -7
+        }
+    },
+
     dateRules: [
         [/(\d{3,4})s?\s*[-\/~]\s*(\d{3,4})s/, function(match, date) {
             date.start = match[1];
@@ -276,7 +295,19 @@ module.exports = {
             date.start = parseFloat(match[1]) * 100;
             date.end = (parseFloat(match[1]) * 100) + 99;
         }],
-        [/(\d{4})s/, function(match, date) {
+        [/:decadeOffset(\d{3}0)s/, function(match, date) {
+            date.start = parseFloat(match[2]);
+            date.end = date.start + 9;
+
+            if (match[1] in this.decadeOffset) {
+                var offset = this.decadeOffset[match[1]];
+                date.start += offset.start;
+                date.end += offset.end;
+            } else {
+                throw "Missing decade offset: " + match[1];
+            }
+        }],
+        [/(\d{3}0)s/, function(match, date) {
             date.start = match[1];
             date.end = match[1].substr(0, 3) + "9";
         }],
@@ -385,11 +416,14 @@ module.exports = {
 
         var centuryOffset = "(" + Object.keys(this.centuryOffset).join("|") +
             ")(?:\\s*-\\s*|\\s*of\\s+the\\s*|\\s*of\\s*|\\s*)";
+        var decadeOffset = "(" + Object.keys(this.decadeOffset).join("|") +
+            ")(?:\\s*-\\s*|\\s*of\\s+the\\s*|\\s*of\\s*|\\s*)";
 
         for (var i = 0; i < this.dateRules.length; i++) {
             var rule = this.dateRules[i];
             rule[0] = new RegExp(rule[0].source
-                .replace(/:centuryOffset/g, centuryOffset));
+                .replace(/:centuryOffset/g, centuryOffset)
+                .replace(/:decadeOffset/g, decadeOffset));
         }
 
         this.dateRulesProcessed = true;

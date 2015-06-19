@@ -1205,7 +1205,7 @@
 ,
 {"original":"July 2006 (actual printing date).","start":2006,"end":2006}
 ,
-{"original":"Not dated. mid-late 20th C.","start":1975,"end":1999,"circa":true}
+{"original":"Not dated. mid-late 20th C.","start":1940,"end":1999,"circa":true}
 ,
 {"original":"Originally in 1837-38, this is a re-carved edition in late 20th C.","start":1837,"end":1838,"circa":true}
 ,
@@ -1291,7 +1291,7 @@
 ,
 {"original":"Original 1834, this reproduction 20th century","start":1900,"end":1999}
 ,
-{"original":"Mid-late 20th C.","start":1975,"end":1999,"circa":true}
+{"original":"Mid-late 20th C.","start":1940,"end":1999,"circa":true}
 ,
 {"original":"1500 s c.","start":1500,"end":1599,"circa":true}
 ,
@@ -2115,7 +2115,7 @@
 ,
 {"original":"Originally in Edo era. This edition was made probably in early 20th Century.","start":1900,"end":1924,"circa":true}
 ,
-{"original":"mid-late of 1800s","start":1875,"end":1899}
+{"original":"mid-late of 1800s","start":1840,"end":1899}
 ,
 {"original":"c. 18011","start":1801,"end":1801,"circa":true}
 ,

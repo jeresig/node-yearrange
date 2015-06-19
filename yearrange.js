@@ -84,6 +84,10 @@ module.exports = {
             start: 75,
             end: 0
         },
+        "mid-late": {
+            start: 40,
+            end: 0
+        },
         "mid": {
             start: 40,
             end: -40

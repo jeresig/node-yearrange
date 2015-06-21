@@ -123,8 +123,20 @@ module.exports = {
             start: 4,
             end: 0
         },
+        "mid to late": {
+            start: 4,
+            end: 0
+        },
         "mid": {
             start: 4,
+            end: -3
+        },
+        "early-mid": {
+            start: 0,
+            end: -3
+        },
+        "early to mid": {
+            start: 0,
             end: -3
         },
         "early": {

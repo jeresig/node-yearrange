@@ -449,7 +449,11 @@ module.exports = {
     },
 
     stripPunctuation: function(str) {
-        return str.replace(puncRegex, " ")
+        return str
+            // Convert malformed apostrophes
+            .replace(/â/g, "'")
+            // Strip out punctuation
+            .replace(puncRegex, " ")
             // Convert 1820's to 1820s
             .replace(/(\d+)'s/g, "$1s")
             // Convert 1820 s to 1820s

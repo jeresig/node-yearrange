@@ -307,7 +307,7 @@ module.exports = {
             date.start = parseFloat(match[1]) * 100;
             date.end = (parseFloat(match[1]) * 100) + 99;
         }],
-        [/:decadeOffset(\d{3}0)s/, function(match, date) {
+        [/:decadeOffset(\d{3}0)/, function(match, date) {
             date.start = parseFloat(match[2]);
             date.end = date.start + 9;
 

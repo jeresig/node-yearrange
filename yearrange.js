@@ -307,6 +307,46 @@ module.exports = {
             date.start = parseFloat(match[1]) * 100;
             date.end = (parseFloat(match[1]) * 100) + 99;
         }],
+        [/:decadeOffset(\d{3}0)s?(?:\s*[-\/]\s*|\sto\s|\sor\s):decadeOffset(\d{3}0)/, function(match, date) {
+            date.start = parseFloat(match[2]);
+            date.end = parseFloat(match[4]) + 9;
+
+            if (match[1] in this.decadeOffset) {
+                var offset = this.decadeOffset[match[1]];
+                date.start += offset.start;
+            } else {
+                throw "Missing decade offset: " + match[1];
+            }
+
+            if (match[3] in this.decadeOffset) {
+                var offset = this.decadeOffset[match[3]];
+                date.end += offset.end;
+            } else {
+                throw "Missing decade offset: " + match[3];
+            }
+        }],
+        [/(\d{3}0)s?(?:\s*[-\/]\s*|\sto\s|\sor\s):decadeOffset(\d{3}0)/, function(match, date) {
+            date.start = parseFloat(match[1]);
+            date.end = parseFloat(match[3]) + 9;
+
+            if (match[2] in this.decadeOffset) {
+                var offset = this.decadeOffset[match[2]];
+                date.end += offset.end;
+            } else {
+                throw "Missing decade offset: " + match[2];
+            }
+        }],
+        [/:decadeOffset(\d{3}0)s?(?:\s*[-\/]\s*|\sto\s|\sor\s)(\d{3}0)/, function(match, date) {
+            date.start = parseFloat(match[2]);
+            date.end = parseFloat(match[4]) + 9;
+
+            if (match[1] in this.decadeOffset) {
+                var offset = this.decadeOffset[match[1]];
+                date.start += offset.start;
+            } else {
+                throw "Missing decade offset: " + match[1];
+            }
+        }],
         [/:decadeOffset(\d{3}0)/, function(match, date) {
             date.start = parseFloat(match[2]);
             date.end = date.start + 9;

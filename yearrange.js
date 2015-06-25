@@ -359,6 +359,18 @@ module.exports = {
                 throw "Missing decade offset: " + match[1];
             }
         }],
+        [/(\d{3}0)s?\s*:decadeOffset/, function(match, date) {
+            date.start = parseFloat(match[1]);
+            date.end = date.start + 9;
+
+            if (match[2] in this.decadeOffset) {
+                var offset = this.decadeOffset[match[2]];
+                date.start += offset.start;
+                date.end += offset.end;
+            } else {
+                throw "Missing decade offset: " + match[2];
+            }
+        }],
         [/(\d{3}0)s/, function(match, date) {
             date.start = match[1];
             date.end = match[1].substr(0, 3) + "9";

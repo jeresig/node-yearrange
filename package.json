@@ -1,6 +1,6 @@
 {
   "name": "yearrange",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Parse year range strings and convert to usable dates.",
   "main": "yearrange.js",
   "scripts": {
@@ -22,8 +22,8 @@
     "url": "https://github.com/jeresig/node-yearrange/issues"
   },
   "devDependencies": {
-    "csv-streamify": "~0.9.0",
-    "JSONStream": "~0.7.1",
-    "through": "~2.3.4"
+    "csv-streamify": "^4.0.0",
+    "JSONStream": "^1.3.5",
+    "through": "^2.3.8"
   }
 }

@@ -49,7 +49,14 @@ var tests = [
     { original: '〔安永５年（１７７６）～ 天保２年（１８３１）？・５６歳？〕',
       start: 1776,
       end: 1831,
-      circa: true }
+      circa: true },
+    { original: 'active Bunka period', start: 1804, end: 1818 },
+    {
+      original: 'active circa 1880s-early 1900s',
+      start: 1880,
+      end: 1902,
+      circa: true
+    },
 ];
 
 tests.forEach(test);

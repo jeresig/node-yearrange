@@ -446,7 +446,6 @@ module.exports = {
         };
 
         str = this.cleanString(str);
-        console.log(str);
 
         for (var i = 0; i < this.dateRules.length; i++) {
             var rule = this.dateRules[i];

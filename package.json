@@ -1,6 +1,6 @@
 {
   "name": "yearrange",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Parse year range strings and convert to usable dates.",
   "main": "yearrange.js",
   "scripts": {

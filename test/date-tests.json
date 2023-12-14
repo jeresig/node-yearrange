@@ -917,7 +917,7 @@
 ,
 {"original":"Spring - July 2005.","start":2005,"end":2005}
 ,
-{"original":"Dec 2003 - July 2004.","start":2003,"end":2003,"circa":true}
+{"original":"Dec 2003 - July 2004.","start":2003,"end":2004,"circa":true}
 ,
 {"original":"Sept - Nov 2003.","start":2003,"end":2003}
 ,
@@ -931,7 +931,7 @@
 ,
 {"original":"April - May 2005.","start":2005,"end":2005}
 ,
-{"original":"Late 2004 - February 2005.","start":2004,"end":2004}
+{"original":"Late 2004 - February 2005.","start":2004,"end":2005}
 ,
 {"original":"[between ca. 1750 and 1770, printed later]","start":1750,"end":1770,"circa":true}
 ,
@@ -1435,7 +1435,7 @@
 ,
 {"original":"Japan : Kinrindō, 1860.","start":1860,"end":1860}
 ,
-{"original":"May 1997 - May 1998.","start":1997,"end":1997}
+{"original":"May 1997 - May 1998.","start":1997,"end":1998}
 ,
 {"original":"Originally in Edo period. This is a re-carved edition made in early 20th century.","start":1900,"end":1924}
 ,
@@ -2857,7 +2857,7 @@
 ,
 {"original":"Not dated (late 1920's)","start":1927,"end":1929}
 ,
-{"original":"Spring: July 2005; Summer: May - July 2003; Autumn: Dec 2003 - July 2004; Winter: Sept - Nov 2003.","start":2005,"end":2005,"circa":true}
+{"original":"Spring: July 2005; Summer: May - July 2003; Autumn: Dec 2003 - July 2004; Winter: Sept - Nov 2003.","start":2003,"end":2004,"circa":true}
 ,
 {"original":"This woodblock version was made in 1925.","start":1925,"end":1925}
 ,

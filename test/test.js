@@ -57,6 +57,11 @@ var tests = [
       end: 1902,
       circa: true
     },
+    {
+      original: "February 22, 1822 – August 2, 1866",
+      start: 1822,
+      end: 1866
+    }
 ];
 
 tests.forEach(test);

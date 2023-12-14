@@ -146,19 +146,23 @@ module.exports = {
     },
 
     dateRules: [
-        [/(\d{3,4})s?\s*[-\/~]\s*(\d{3,4})s/, function(match, date) {
+        [/(\d{3,4})s?\s*[-–\/~]\s*(\d{3,4})s/, function(match, date) {
             date.start = match[1];
             date.end = match[2].substr(0, 3) + "9";
         }],
-        [/(\d{4})s?\s*[-\/]\s*(\d{4})(?:\D|$)/, function(match, date) {
+        [/(\d{4})s?\s*[-–\/]\s*(\d{4})(?:\D|$)/, function(match, date) {
             date.start = match[1];
             date.end = match[2];
         }],
-        [/(\d{3,4})s?\s*[-]\s*(\d{3,4})(?:\D|$)/, function(match, date) {
+        [/(\d{3,4})s?\s*[-–]\s*(\d{3,4})(?:\D|$)/, function(match, date) {
             date.start = match[1];
             date.end = match[2];
         }],
-        [/(\d{3,4})s?[-\/]\s*present/, function(match, date) {
+        [/(?:\D+\s+)?(?:\d{1,2},?\s+)?(\d{3,4})\s*[-–]\s*(?:\D+ )?(?:\d{1,2},?\s+)?(\d{3,4})(?:\D|$)/, function(match, date) {
+            date.start = match[1];
+            date.end = match[2];
+        }],
+        [/(\d{3,4})s?[-–\/]\s*present/, function(match, date) {
             date.start = match[1];
             date.end = (new Date).getYear() + 1900;
         }],
@@ -166,16 +170,16 @@ module.exports = {
             date.start = match[1];
             date.end = match[2];
         }],
-        [/(\d{3,4})s?[-\/](\d{2})s/, function(match, date) {
+        [/(\d{3,4})s?[-–\/](\d{2})s/, function(match, date) {
             date.start = match[1];
             date.end = match[1].substr(0, 2) +
                 match[2].substr(0, 1) + "9";
         }],
-        [/(\d{3,4})s?[-\/](\d{2})(?:\D|$)/, function(match, date) {
+        [/(\d{3,4})s?[-–\/](\d{2})(?:\D|$)/, function(match, date) {
             date.start = match[1];
             date.end = date.start.substr(0, date.start.length - 2) + match[2];
         }],
-        [/(\d{3,4})s?[-\/](\d{1})(?:\D|$)/, function(match, date) {
+        [/(\d{3,4})s?[-–\/](\d{1})(?:\D|$)/, function(match, date) {
             date.start = match[1];
             date.end = date.start.substr(0, date.start.length - 1) + match[2];
         }],
@@ -183,11 +187,11 @@ module.exports = {
             date.start = match[1];
             date.end = match[2];
         }],
-        [/(\d{3})s?[-\/](\d{2})(?:\D|$)/, function(match, date) {
+        [/(\d{3})s?[-–\/](\d{2})(?:\D|$)/, function(match, date) {
             date.start = match[1];
             date.end = match[1].substr(0, 1) + match[2];
         }],
-        [/:decadeOffset(\d{3}0)s?(?:\s*[-\/]\s*|\sto\s|\sor\s):decadeOffset(\d{3}0)/, function(match, date) {
+        [/:decadeOffset(\d{3}0)s?(?:\s*[-–\/]\s*|\sto\s|\sor\s):decadeOffset(\d{3}0)/, function(match, date) {
             date.start = parseFloat(match[2]);
             date.end = parseFloat(match[4]) + 9;
 
@@ -205,7 +209,7 @@ module.exports = {
                 throw "Missing decade offset: " + match[3];
             }
         }],
-        [/(\d{3}0)s?(?:\s*[-\/]\s*|\sto\s|\sor\s):decadeOffset(\d{3}0)/, function(match, date) {
+        [/(\d{3}0)s?(?:\s*[-–\/]\s*|\sto\s|\sor\s):decadeOffset(\d{3}0)/, function(match, date) {
             date.start = parseFloat(match[1]);
             date.end = parseFloat(match[3]) + 9;
 
@@ -216,7 +220,7 @@ module.exports = {
                 throw "Missing decade offset: " + match[2];
             }
         }],
-        [/:decadeOffset(\d{3}0)s?(?:\s*[-\/]\s*|\sto\s|\sor\s)(\d{3}0)/, function(match, date) {
+        [/:decadeOffset(\d{3}0)s?(?:\s*[-–\/]\s*|\sto\s|\sor\s)(\d{3}0)/, function(match, date) {
             date.start = parseFloat(match[2]);
             date.end = parseFloat(match[4]) + 9;
 
@@ -251,7 +255,7 @@ module.exports = {
                 throw "Missing decade offset: " + match[2];
             }
         }],
-        [/:centuryOffset(\d{2})th(?:\s*century\s*|\s*cent\s*)?(?:\s*[-\/]\s*|\sto\s|\sor\s):centuryOffset(\d{2})th (?:century|\s*cent\s*)/, function(match, date) {
+        [/:centuryOffset(\d{2})th(?:\s*century\s*|\s*cent\s*)?(?:\s*[-–\/]\s*|\sto\s|\sor\s):centuryOffset(\d{2})th (?:century|\s*cent\s*)/, function(match, date) {
             date.start = (parseFloat(match[2]) - 1) * 100;
             date.end = ((parseFloat(match[4]) - 1) * 100) + 99;
 
@@ -269,7 +273,7 @@ module.exports = {
                 throw "Missing century offset: " + match[3];
             }
         }],
-        [/:centuryOffset(?:\s*[-\/]\s*|\sto\s|\sor\s):centuryOffset(\d{2})th (?:century|\s*cent\s*)/, function(match, date) {
+        [/:centuryOffset(?:\s*[-–\/]\s*|\sto\s|\sor\s):centuryOffset(\d{2})th (?:century|\s*cent\s*)/, function(match, date) {
             date.start = (parseFloat(match[3]) - 1) * 100;
             date.end = ((parseFloat(match[3]) - 1) * 100) + 99;
 
@@ -287,7 +291,7 @@ module.exports = {
                 throw "Missing century offset: " + match[2];
             }
         }],
-        [/:centuryOffset(\d{2})th(?:\s*century\s*|\s*cent\s*)?(?:\s*[-\/]\s*|\sto\s|\sor\s)(\d{2})th (?:century|\s*cent\s*)/, function(match, date) {
+        [/:centuryOffset(\d{2})th(?:\s*century\s*|\s*cent\s*)?(?:\s*[-–\/]\s*|\sto\s|\sor\s)(\d{2})th (?:century|\s*cent\s*)/, function(match, date) {
             date.start = (parseFloat(match[2]) - 1) * 100;
             date.end = ((parseFloat(match[3]) - 1) * 100) + 99;
 
@@ -298,7 +302,7 @@ module.exports = {
                 throw "Missing century offset: " + match[1];
             }
         }],
-        [/(\d{2})th(?:\s*century\s*|\s*cent\s*)?(?:\s*[-\/]\s*|\sto\s|\sor\s):centuryOffset(\d{2})th (?:century|\s*cent\s*)/, function(match, date) {
+        [/(\d{2})th(?:\s*century\s*|\s*cent\s*)?(?:\s*[-–\/]\s*|\sto\s|\sor\s):centuryOffset(\d{2})th (?:century|\s*cent\s*)/, function(match, date) {
             date.start = (parseFloat(match[1]) - 1) * 100;
             date.end = ((parseFloat(match[3]) - 1) * 100) + 99;
 
@@ -333,7 +337,7 @@ module.exports = {
                 throw "Missing century offset: " + match[1];
             }
         }],
-        [/(\d{2})th(?:\s*century\s*|\s*cent\s*)?(?:\s*[-\/]\s*|\sto\s|\sor\s)(\d{2})(?:th)?\s*(?:century|cent)/, function(match, date) {
+        [/(\d{2})th(?:\s*century\s*|\s*cent\s*)?(?:\s*[-–\/]\s*|\sto\s|\sor\s)(\d{2})(?:th)?\s*(?:century|cent)/, function(match, date) {
             date.start = (parseFloat(match[1]) - 1) * 100;
             date.end = ((parseFloat(match[2]) - 1) * 100) + 99;
         }],
@@ -379,11 +383,11 @@ module.exports = {
             date.start = match[1];
             date.end = match[1];
         }],
-        [/(\d{3})-/, function(match, date) {
+        [/(\d{3})[-–]/, function(match, date) {
             date.start = match[1] + "0";
             date.end = match[1] + "9";
         }],
-        [/(\d{2})--/, function(match, date) {
+        [/(\d{2})[-–][-–]/, function(match, date) {
             date.start = match[1] + "00";
             date.end = match[1] + "99";
         }],
@@ -412,7 +416,7 @@ module.exports = {
                 date.end = 1989;
             }
         }],
-        [/(\d{2})-\d{2}/, function(match, date) {
+        [/(\d{2})[-–]\d{2}/, function(match, date) {
             date.start = "19" + match[1];
             date.end = "19" + match[1];
         }],

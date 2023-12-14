@@ -61,6 +61,11 @@ var tests = [
       original: "February 22, 1822 – August 2, 1866",
       start: 1822,
       end: 1866
+    },
+    {
+      original: "30 April 1839 – 9 June 1892",
+      start: 1839,
+      end: 1892
     }
 ];
 

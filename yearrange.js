@@ -543,7 +543,7 @@ module.exports = {
             // Convert 1820 s to 1820s
             .replace(/(\d+)\s+s\b/g, "$1s")
             // Convert wide dash to hyphen
-            .replace(/–/g, "-")
+            .replace(/[–‐]/g, "-")
             // Remove hyphenated words
             .replace(/\b(p?re)-([a-z]+)\b/g, "$1$2")
             .replace(/(pre|post)-(\d)/g, "$1 $2")

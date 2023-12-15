@@ -76,11 +76,11 @@ module.exports = {
             start: 50,
             end: 0
         },
-        "end": {
-            start: 75,
-            end: 0
+        "early-mid": {
+            start: 0,
+            end: -40
         },
-        "late": {
+        "end": {
             start: 75,
             end: 0
         },
@@ -88,15 +88,19 @@ module.exports = {
             start: 40,
             end: 0
         },
+        "late": {
+            start: 75,
+            end: 0
+        },
         "mid": {
             start: 40,
             end: -40
         },
-        "middle": {
+        "middle of": {
             start: 40,
             end: -40
         },
-        "middle of": {
+        "middle": {
             start: 40,
             end: -40
         },
@@ -115,10 +119,6 @@ module.exports = {
     },
 
     decadeOffset: {
-        "late": {
-            start: 7,
-            end: 0
-        },
         "mid-late": {
             start: 4,
             end: 0
@@ -127,16 +127,20 @@ module.exports = {
             start: 4,
             end: 0
         },
-        "mid": {
-            start: 4,
-            end: -3
-        },
         "early-mid": {
             start: 0,
             end: -3
         },
         "early to mid": {
             start: 0,
+            end: -3
+        },
+        "late": {
+            start: 7,
+            end: 0
+        },
+        "mid": {
+            start: 4,
             end: -3
         },
         "early": {
@@ -383,6 +387,16 @@ module.exports = {
             date.start = match[1];
             date.end = match[1].substr(0, 3) + "9";
         }],
+        [/([1-2]\d{3}).*?[^a-z]-[^a-z].*?([1-2]\d{3})/, function(match, date) {
+            date.start = match[1];
+            date.end = match[2];
+        }],
+        [/([1-2]\d{3}).*?[^a-z]-[^a-z].*?没年不明/, function(match, date) {
+            date.start = match[1];
+        }],
+        [/生年不明.*?[^a-z]-[^a-z].*?([1-2]\d{3})/, function(match, date) {
+            date.end = match[1];
+        }],
         [/([1-2]\d{3})/, function(match, date) {
             date.start = match[1];
             date.end = match[1];
@@ -446,6 +460,10 @@ module.exports = {
         };
 
         str = this.cleanString(str);
+
+        if (this.debug) {
+            console.log("cleaned string", str);
+        }
 
         for (var i = 0; i < this.dateRules.length; i++) {
             var rule = this.dateRules[i];
@@ -526,6 +544,9 @@ module.exports = {
             .replace(/(\d+)\s+s\b/g, "$1s")
             // Convert wide dash to hyphen
             .replace(/–/g, "-")
+            // Remove hyphenated words
+            .replace(/\b(p?re)-([a-z]+)\b/g, "$1$2")
+            .replace(/(pre|post)-(\d)/g, "$1 $2")
             // Strip out extra whitespace
             //.replace(/(\d)\s*-\s*(\d)/g, "$1-$2")
             .replace(/\s+/, " ")

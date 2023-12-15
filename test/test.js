@@ -3,6 +3,7 @@ var assert = require("assert");
 var through = require("through");
 var JSONStream = require("JSONStream");
 var yr = require("../yearrange");
+const { start } = require("repl");
 
 yr.debug = true;
 
@@ -66,6 +67,22 @@ var tests = [
       original: "30 April 1839 – 9 June 1892",
       start: 1839,
       end: 1892
+    },
+    {
+      original: "安永6年（1777年） - 弘化3年9月6日（1846年10月25日）",
+      start: 1777,
+      end: 1846
+    },
+    {
+      original: "寛政10年〈1798年〉 - 没年不明",
+      start: 1798,
+    },
+    {
+      original: "生年不明 - 文化14年4月25日〈1817年6月9日〉",
+      end: 1817,
+    },
+    {
+      original: "生没年不詳",
     }
 ];
 

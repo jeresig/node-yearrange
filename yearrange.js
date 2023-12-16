@@ -387,14 +387,14 @@ module.exports = {
             date.start = match[1];
             date.end = match[1].substr(0, 3) + "9";
         }],
-        [/([1-2]\d{3}).*?[^a-z]-[^a-z].*?([1-2]\d{3})/, function(match, date) {
+        [/([1-2]\d{3})(?:.*?[^a-z]|)-(?:[^a-z].*?|)([1-2]\d{3})/, function(match, date) {
             date.start = match[1];
             date.end = match[2];
         }],
-        [/([1-2]\d{3}).*?[^a-z]-[^a-z].*?没年不明/, function(match, date) {
+        [/([1-2]\d{3})(?:.*?[^a-z]|)[^a-z]-(?:[^a-z].*?|)没年不明/, function(match, date) {
             date.start = match[1];
         }],
-        [/生年不明.*?[^a-z]-[^a-z].*?([1-2]\d{3})/, function(match, date) {
+        [/生年不明(?:.*?[^a-z]|)[^a-z]-(?:[^a-z].*?|)([1-2]\d{3})/, function(match, date) {
             date.end = match[1];
         }],
         [/([1-2]\d{3})/, function(match, date) {

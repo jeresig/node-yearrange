@@ -397,6 +397,12 @@ module.exports = {
         [/生年不明(?:.*?[^a-z]|)[^a-z]-(?:[^a-z].*?|)([1-2]\d{3})/, function(match, date) {
             date.end = match[1];
         }],
+        [/([1-2]\d{3})\s*-\s*\??$/, function(match, date) {
+            date.start = match[1];
+        }],
+        [/^\??\s*-\s*([1-2]\d{3})/, function(match, date) {
+            date.end = match[1];
+        }],
         [/([1-2]\d{3})/, function(match, date) {
             date.start = match[1];
             date.end = match[1];

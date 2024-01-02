@@ -91,7 +91,25 @@ var tests = [
     },
     {
       original: "生没年不詳",
-    }
+    },
+    {
+      original: "1911-",
+      start: 1911,
+    },
+    {
+      original: "1911-?",
+      start: 1911,
+      circa: true,
+    },
+    {
+      original: "-1911",
+      end: 1911,
+    },
+        {
+      original: "?-1911",
+      end: 1911,
+      circa: true,
+    },
 ];
 
 tests.forEach(test);

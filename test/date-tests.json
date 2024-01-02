@@ -233,7 +233,7 @@
 ,
 {"original":"[between 1900 and 1940, from an earlier print]","start":1900,"end":1940}
 ,
-{"original":"-1791","start":1791,"end":1791}
+{"original":"-1791","end":1791}
 ,
 {"original":"mid-19th century","start":1840,"end":1859}
 ,
@@ -2041,7 +2041,7 @@
 ,
 {"original":"Sixth month of1856 (series published 1856-1858)","start":1856,"end":1858}
 ,
-{"original":"Heisei period, 1989-present","start":1989,"end":2023}
+{"original":"Heisei period, 1989-present","start":1989,"end":2024}
 ,
 {"original":"1902, October 20.","start":1902,"end":1902}
 ,

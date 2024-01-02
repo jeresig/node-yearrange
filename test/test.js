@@ -105,10 +105,18 @@ var tests = [
       original: "-1911",
       end: 1911,
     },
-        {
+    {
       original: "?-1911",
       end: 1911,
       circa: true,
+    },
+    {
+      original: "born 1911",
+      start: 1911,
+    },
+    {
+      original: "died 1911",
+      end: 1911,
     },
 ];
 

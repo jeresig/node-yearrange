@@ -403,6 +403,12 @@ module.exports = {
         [/^\??\s*-\s*([1-2]\d{3})/, function(match, date) {
             date.end = match[1];
         }],
+        [/born\s*([1-2]\d{3})/, function(match, date) {
+            date.start = match[1];
+        }],
+        [/died ([1-2]\d{3})/, function(match, date) {
+            date.end = match[1];
+        }],
         [/([1-2]\d{3})/, function(match, date) {
             date.start = match[1];
             date.end = match[1];
